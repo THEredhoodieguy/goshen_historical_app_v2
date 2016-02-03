@@ -25,15 +25,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBI-GS-oXf">
-                                <rect key="frame" x="136" y="149" width="116" height="30"/>
+                                <rect key="frame" x="135" y="178" width="116" height="30"/>
                                 <state key="normal" title="Choose a Tour "/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvl-Ll-jB6">
-                                <rect key="frame" x="125" y="213" width="138" height="30"/>
+                                <rect key="frame" x="125" y="236" width="138" height="30"/>
                                 <state key="normal" title="Quick History"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ey-sk-k5M">
-                                <rect key="frame" x="148" y="277" width="104" height="30"/>
+                                <rect key="frame" x="135" y="295" width="104" height="30"/>
                                 <state key="normal" title="Contact"/>
                             </button>
                         </subviews>
