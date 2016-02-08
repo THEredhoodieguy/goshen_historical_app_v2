@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sampletext: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        sampletext.text = Alamofire.request(.Get, "mattpletcher.wordpress.com/feed")
     }
 
     override func didReceiveMemoryWarning() {
