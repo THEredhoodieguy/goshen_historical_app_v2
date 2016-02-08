@@ -36,7 +36,7 @@
                                 <rect key="frame" x="135" y="295" width="104" height="30"/>
                                 <state key="normal" title="Contact"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u9u-FN-f8A">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="index.png" translatesAutoresizingMaskIntoConstraints="NO" id="u9u-FN-f8A">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
@@ -280,4 +280,7 @@
             <point key="canvasLocation" x="758.5" y="940.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="index.png" width="588" height="1024"/>
+    </resources>
 </document>
