@@ -17,6 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="9cZ-Zg-wwD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZn-6J-3tO">
                                 <rect key="frame" x="174" y="97" width="71" height="30"/>
                                 <state key="normal" title="Next Page"/>
@@ -277,4 +280,7 @@
             <point key="canvasLocation" x="758.5" y="940.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="375" height="667"/>
+    </resources>
 </document>
