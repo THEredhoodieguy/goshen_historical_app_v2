@@ -226,9 +226,6 @@
                                 <rect key="frame" x="20" y="181" width="46" height="30"/>
                                 <state key="normal" title="Site"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="index.png" translatesAutoresizingMaskIntoConstraints="NO" id="8rO-QK-fEC">
-                                <rect key="frame" x="40" y="83" width="297" height="331"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -280,7 +277,4 @@
             <point key="canvasLocation" x="758.5" y="940.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="index.png" width="588" height="1024"/>
-    </resources>
 </document>
