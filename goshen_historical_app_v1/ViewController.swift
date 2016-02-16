@@ -7,6 +7,7 @@
 //
 
 import UIKit
+
 import Alamofire
 
 class ViewController: UIViewController {
@@ -17,7 +18,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        sampletext.text = Alamofire.request(.Get, "mattpletcher.wordpress.com/feed")
+        
+        let url = "http://people.goshen.edu/~matthewwp/test_stuff.txt"
+        //let url = "https://mattpletcher.wordpress.com/feed"
+        
+        var stuff_string = ""
+        
+        Alamofire.request(.GET, url)
+            .responseString { response in
+                stuff_string = response.result.value!
+                print(stuff_string)
+        }
+        print(stuff_string)
     }
 
     override func didReceiveMemoryWarning() {
