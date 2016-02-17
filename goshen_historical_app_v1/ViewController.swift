@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = "http://people.goshen.edu/~matthewwp/test_stuff.txt"
-        //let url = "https://mattpletcher.wordpress.com/feed"
+        //let url = "http://people.goshen.edu/~matthewwp/test_stuff.txt"
+        let url = "http://people.goshen.edu/~matthewwp/tab_test.tsv"
         
         var stuff_string = ""
         
@@ -30,6 +30,9 @@ class ViewController: UIViewController {
                 print(stuff_string)
         }
         print(stuff_string)
+        
+        let values_array = stuff_string.characters.split{$0 == "	"}
+        print(values_array)
     }
 
     override func didReceiveMemoryWarning() {
