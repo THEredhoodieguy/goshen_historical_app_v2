@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         }
         print(stuff_string)
         
-        let values_array = stuff_string.characters.split{$0 == "	"}
+		let values_array = stuff_string.componentsSeparatedByString("\u{9}")
         print(values_array)
     }
 
