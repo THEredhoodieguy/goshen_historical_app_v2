@@ -19,19 +19,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //let url = "http://people.goshen.edu/~matthewwp/output_test.txt"
-        let url = "http://people.goshen.edu/~matthewwp/tab_test.tsv"
+        let url = "http://people.goshen.edu/~matthewwp/output_test.txt"
         
         var stuff_string = ""
         
         Alamofire.request(.GET, url)
             .responseString { response in
                 stuff_string = response.result.value!
-                print(stuff_string)
+				let values_array = stuff_string.componentsSeparatedByString("|")
+				print(values_array)
         }
         print(stuff_string)
-        
-		let values_array = stuff_string.componentsSeparatedByString("|")
-        print(values_array)
+		
     }
 
     override func didReceiveMemoryWarning() {
