@@ -10,6 +10,8 @@ import UIKit
 
 import Alamofire
 
+var values_array = []
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var sampletext: UILabel!
@@ -22,14 +24,16 @@ class ViewController: UIViewController {
         let url = "http://people.goshen.edu/~matthewwp/output_test.txt"
         
         var stuff_string = ""
-        
-        Alamofire.request(.GET, url)
-            .responseString { response in
-                stuff_string = response.result.value!
-				let values_array = stuff_string.componentsSeparatedByString("|")
+		
+		Alamofire.request(.GET, url)
+			.responseString { response in
+				stuff_string = response.result.value!
+				values_array = stuff_string.componentsSeparatedByString("|")
 				print(values_array)
-        }
-        print(stuff_string)
+				print(values_array.count)
+		}
+		
+		
 		
     }
 
