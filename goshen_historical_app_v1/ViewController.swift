@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 		Alamofire.request(.GET, url)
 			.responseString { response in
 				stuff_string = response.result.value!
-				values_array = stuff_string.componentsSeparatedByString("|")
+                values_array = stuff_string.characters.split { $0 == "\r\n" || $0 == "|" }.map(String.init)
 				print(values_array)
 				print(values_array.count)
 		}
