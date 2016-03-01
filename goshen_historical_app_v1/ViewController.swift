@@ -29,8 +29,9 @@ class ViewController: UIViewController {
 			.responseString { response in
 				stuff_string = response.result.value!
                 values_array = stuff_string.characters.split { $0 == "\r\n" || $0 == "|" }.map(String.init)
-				print(values_array)
-				print(values_array.count)
+				//print(values_array)
+				//print(values_array.count)
+                self.sampletext.text = values_array[20] as! String
 		}
 		
 		
