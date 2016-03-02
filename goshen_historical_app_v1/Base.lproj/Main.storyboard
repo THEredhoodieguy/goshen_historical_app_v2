@@ -237,7 +237,15 @@
                             <outlet property="delegate" destination="bT9-Zn-3eL" id="eKb-bA-EDg"/>
                         </connections>
                     </tableView>
+                    <toolbarItems>
+                        <barButtonItem systemItem="reply" id="95W-gM-ieJ">
+                            <connections>
+                                <segue destination="eQy-Oq-OZj" kind="show" id="z6u-sG-Mus"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" title="Root View Controller" id="Xtu-t4-3qM"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C5C-HV-39b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -448,5 +456,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="fQv-Ky-Ja4"/>
+        <segue reference="z6u-sG-Mus"/>
     </inferredMetricsTieBreakers>
 </document>
