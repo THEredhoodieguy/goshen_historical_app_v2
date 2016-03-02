@@ -18,11 +18,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var sampletext: UILabel!
     
+    @IBOutlet weak var picture: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        //let url = "http://people.goshen.edu/~matthewwp/output_test.txt"
         let url = "http://people.goshen.edu/~matthewwp/output_test.txt"
         
         var stuff_string = ""
@@ -30,15 +30,19 @@ class ViewController: UIViewController {
 		Alamofire.request(.GET, url)
 			.responseString { response in
 				stuff_string = response.result.value!
-                //values_array = stuff_string.characters.split { $0 == "\r\n" || $0 == "|" }.map(String.init)
                 values_array = stuff_string.characters.split { $0 == "\r\n"}.map(String.init)
                 for i in values_array {
                      big_array.append(i.componentsSeparatedByString("|"))
                 }
-				//print(values_array)
-				//print(values_array.count)
-                self.sampletext.text = big_array[0][0] 
-		}
+
+                self.sampletext.text = big_array[3][4]
+                
+                
+        }
+        Alamofire.request(.GET, "https://robohash.org/123.png").response { (request, response, data, error) in
+            self.picture.image = UIImage(data: data!, scale:1)
+        }
+
 		
 		
 		
