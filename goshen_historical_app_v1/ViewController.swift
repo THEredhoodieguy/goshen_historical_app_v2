@@ -10,6 +10,8 @@ import UIKit
 
 import Alamofire
 
+var big_array = Array<Array<String>>()
+
 var values_array = []
 
 class ViewController: UIViewController {
@@ -28,10 +30,14 @@ class ViewController: UIViewController {
 		Alamofire.request(.GET, url)
 			.responseString { response in
 				stuff_string = response.result.value!
-                values_array = stuff_string.characters.split { $0 == "\r\n" || $0 == "|" }.map(String.init)
+                //values_array = stuff_string.characters.split { $0 == "\r\n" || $0 == "|" }.map(String.init)
+                values_array = stuff_string.characters.split { $0 == "\r\n"}.map(String.init)
+                for i in values_array {
+                     big_array.append(i.componentsSeparatedByString("|"))
+                }
 				//print(values_array)
 				//print(values_array.count)
-                self.sampletext.text = values_array[20] as! String
+                self.sampletext.text = big_array[0][0] 
 		}
 		
 		
