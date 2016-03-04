@@ -48,6 +48,9 @@
                                 <state key="normal" title="Choose a Tour ">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="eQy-Oq-OZj" kind="show" id="xVM-oN-9hE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZn-6J-3tO">
                                 <rect key="frame" x="187" y="47" width="71" height="30"/>
@@ -628,11 +631,11 @@
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KTZ-8G-rpi"/>
-        <segue reference="WVz-gV-5rW"/>
+        <segue reference="xVM-oN-9hE"/>
         <segue reference="wrU-B3-eID"/>
-        <segue reference="zx5-6g-DCP"/>
-        <segue reference="73S-05-GQh"/>
+        <segue reference="KiQ-F0-aae"/>
+        <segue reference="5lf-ej-RFn"/>
+        <segue reference="WVz-gV-5rW"/>
         <segue reference="xBX-IZ-gSi"/>
     </inferredMetricsTieBreakers>
 </document>
