@@ -9,7 +9,6 @@
 
 
 
-
 /* woof woof woof woof woof woof woof woof woof woof woof woof
 
                                          do. 
@@ -96,14 +95,14 @@ class ViewController: UIViewController {
                      big_array.append(i.componentsSeparatedByString("|"))
                 }
 
-                self.sampletext.text = big_array[3][4]
-                
-                
-        }
-        Alamofire.request(.GET, "https://robohash.org/123.png").response { (request, response, data, error) in
-            self.picture.image = UIImage(data: data!, scale:1)
-        }
+                //self.sampletext.text = big_array[3][4]
+                Alamofire.request(.GET, big_array[3][3]).response { (request, response, data, error) in
+                self.picture.image = UIImage(data: data!, scale:1)
+                }
 
+                
+        }
+        
 		
 		
 		

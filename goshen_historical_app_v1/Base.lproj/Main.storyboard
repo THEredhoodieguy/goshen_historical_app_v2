@@ -36,14 +36,8 @@
                                 <rect key="frame" x="148" y="277" width="104" height="30"/>
                                 <state key="normal" title="Contact"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ox4-Gu-1Fc">
-                                <rect key="frame" x="39" y="310" width="296" height="167"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SgN-GX-6Mb">
-                                <rect key="frame" x="67" y="497" width="240" height="128"/>
+                                <rect key="frame" x="74" y="481" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -58,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="151.5" y="480.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="l4r-7H-nih">
             <objects>
-                <viewController id="eQy-Oq-OZj" sceneMemberID="viewController">
+                <viewController id="eQy-Oq-OZj" customClass="SecondViewController" customModule="goshen_historical_app_v1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bpl-Gp-YNS"/>
                         <viewControllerLayoutGuide type="bottom" id="ASr-0C-bWm"/>
@@ -77,13 +71,26 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="IqT-df-LDA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSr-v2-EKL">
+                                <rect key="frame" x="147" y="580" width="80" height="30"/>
+                                <state key="normal" title="Next House"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ox4-Gu-1Fc">
+                                <rect key="frame" x="20" y="311" width="296" height="167"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="sampletext2" destination="Ox4-Gu-1Fc" id="L6s-9R-gWd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1IZ-iq-Mcz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="763.5" y="480.5"/>
+            <point key="canvasLocation" x="763.5" y="486.5"/>
         </scene>
     </scenes>
 </document>
