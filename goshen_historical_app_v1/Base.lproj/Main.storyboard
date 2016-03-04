@@ -418,7 +418,7 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sorg Jewelers " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fko-aB-AB1">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Tailgates Building" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fko-aB-AB1">
                                         <rect key="frame" x="108" y="188" width="174" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -441,25 +441,22 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0KK-LY-208">
                                         <rect key="frame" x="0.0" y="8" width="105" height="84"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xOI-sI-uZT">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-3" translatesAutoresizingMaskIntoConstraints="NO" id="xOI-sI-uZT">
                                         <rect key="frame" x="0.0" y="100" width="105" height="80"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gju-Jb-sMz">
-                                        <rect key="frame" x="0.0" y="188" width="105" height="77"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="652-dN-hkt">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-11" translatesAutoresizingMaskIntoConstraints="NO" id="652-dN-hkt">
                                         <rect key="frame" x="0.0" y="273" width="105" height="80"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="my1-xV-sPo">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-12" translatesAutoresizingMaskIntoConstraints="NO" id="my1-xV-sPo">
                                         <rect key="frame" x="0.0" y="361" width="105" height="70"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qO-wz-48S">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-15" translatesAutoresizingMaskIntoConstraints="NO" id="1qO-wz-48S">
                                         <rect key="frame" x="0.0" y="439" width="105" height="72"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kTD-ST-yXo">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-7" translatesAutoresizingMaskIntoConstraints="NO" id="kTD-ST-yXo">
                                         <rect key="frame" x="0.0" y="519" width="105" height="65"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4kX-8w-gtR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-13" translatesAutoresizingMaskIntoConstraints="NO" id="4kX-8w-gtR">
                                         <rect key="frame" x="0.0" y="593" width="105" height="74"/>
                                     </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Rowell-Champion House " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Xg-qng">
@@ -472,6 +469,9 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-14" translatesAutoresizingMaskIntoConstraints="NO" id="gju-Jb-sMz">
+                                        <rect key="frame" x="0.0" y="188" width="105" height="77"/>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -545,9 +545,16 @@
         <image name="Image" width="536" height="898"/>
         <image name="Image-1" width="465" height="292"/>
         <image name="Image-10" width="252" height="260"/>
+        <image name="Image-11" width="464" height="292"/>
+        <image name="Image-12" width="465" height="292"/>
+        <image name="Image-13" width="464" height="292"/>
+        <image name="Image-14" width="465" height="292"/>
+        <image name="Image-15" width="536" height="633"/>
+        <image name="Image-3" width="464" height="292"/>
         <image name="Image-4" width="1250" height="814"/>
         <image name="Image-5" width="465" height="292"/>
         <image name="Image-6" width="464" height="292"/>
+        <image name="Image-7" width="465" height="292"/>
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
