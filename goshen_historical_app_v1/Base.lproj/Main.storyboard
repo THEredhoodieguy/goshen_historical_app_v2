@@ -313,7 +313,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kUL-fe-XTB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-13" translatesAutoresizingMaskIntoConstraints="NO" id="kUL-fe-XTB">
                                 <rect key="frame" x="58" y="161" width="240" height="128"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Rowell-Champion House " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eM2-W9-kH0">
@@ -788,14 +788,6 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZIn-sM-pKs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First National Bank " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V11-R4-Kmd">
-                                        <rect key="frame" x="108" y="8" width="174" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <segue destination="UAR-az-7rD" kind="show" id="eIn-GN-r9t"/>
-                                        </connections>
-                                    </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Police Booth " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ox-ma-ybA">
                                         <rect key="frame" x="108" y="100" width="174" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -819,6 +811,11 @@
                                         <connections>
                                             <segue destination="c1j-J0-mda" kind="show" id="eDb-TT-CwM"/>
                                         </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sorg Jewelers" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F01-Zo-9bA">
+                                        <rect key="frame" x="108" y="439" width="188" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Harper Block " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dPd-3j-VOS">
                                         <rect key="frame" x="108" y="519" width="188" height="30"/>
@@ -863,7 +860,7 @@
                                         <rect key="frame" x="0.0" y="188" width="105" height="77"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfQ-mE-69F">
-                                        <rect key="frame" x="204" y="35" width="184" height="30"/>
+                                        <rect key="frame" x="208" y="35" width="184" height="30"/>
                                         <state key="normal" title="Previous Page"/>
                                         <connections>
                                             <segue destination="VKO-L3-yMp" kind="show" id="mN9-AE-1m4"/>
@@ -876,11 +873,16 @@
                                             <segue destination="s3M-vJ-4BE" kind="show" id="3KE-PH-evW"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sorg Jewelers" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F01-Zo-9bA">
-                                        <rect key="frame" x="108" y="439" width="188" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhX-eN-XX9">
+                                        <rect key="frame" x="113" y="18" width="183" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                        <state key="normal" title="First National Bank ">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="UAR-az-7rD" kind="show" id="Th4-Ag-Jt8"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -983,14 +985,14 @@
     <inferredMetricsTieBreakers>
         <segue reference="OKR-pg-vEf"/>
         <segue reference="kmx-O0-5XA"/>
-        <segue reference="eIn-GN-r9t"/>
+        <segue reference="Th4-Ag-Jt8"/>
         <segue reference="eDb-TT-CwM"/>
         <segue reference="2Qq-JX-29Q"/>
         <segue reference="mN9-AE-1m4"/>
+        <segue reference="eFR-50-aPH"/>
         <segue reference="HxV-rS-PMT"/>
         <segue reference="KiQ-F0-aae"/>
         <segue reference="5lf-ej-RFn"/>
         <segue reference="xVM-oN-9hE"/>
-        <segue reference="fxs-ug-suE"/>
     </inferredMetricsTieBreakers>
 </document>
