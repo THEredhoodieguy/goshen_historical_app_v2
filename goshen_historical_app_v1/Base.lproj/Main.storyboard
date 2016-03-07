@@ -48,6 +48,9 @@
                                 <state key="normal" title="Choose a Tour ">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="eQy-Oq-OZj" kind="show" id="xVM-oN-9hE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZn-6J-3tO">
                                 <rect key="frame" x="187" y="47" width="71" height="30"/>
@@ -247,6 +250,360 @@
             </objects>
             <point key="canvasLocation" x="1815.5" y="58.5"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="N4k-sw-U2h">
+            <objects>
+                <viewController id="nsJ-Sz-Mbs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Ri-Sy-MCU"/>
+                        <viewControllerLayoutGuide type="bottom" id="jML-zN-6MC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m0x-Ne-nM1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-12" translatesAutoresizingMaskIntoConstraints="NO" id="qOp-p4-eI6">
+                                <rect key="frame" x="65" y="134" width="270" height="147"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Kerstetter House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72f-Eg-Kr7">
+                                <rect key="frame" x="126" y="28" width="215" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2d-yI-i7n">
+                                <rect key="frame" x="20" y="9" width="66" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <segue destination="c1j-J0-mda" kind="show" id="PMJ-X4-aPV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fC7-tv-7Ei">
+                                <rect key="frame" x="320" y="24" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="Ngh-nZ-Umz" kind="show" id="hXU-md-9GS"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XPr-qd-PgG">
+                                <rect key="frame" x="20" y="342" width="346" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Despite extensive exterior and interior alterations to serve the needs of a funeral home, it retains the basic structure of an impressive Second Empire dwelling, characterized by its verticality and mansard roof with dormers, which imitate a French architectural style associated with the reign of Napoleon III (d.1873). The curved porch was added in 1904. The home was built for the family of Chauncy W. Kerstetter, a druggist, and remained a residence until 1923, when it became the Culp Funeral Home (in 1964, Rieth-Rohrer-Ehret). For other Second Empire houses see 102 S. 6th St., 110 S. 7th St., and 213 S. 7th St.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ke0-x9-ySp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3614.5" y="198.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WmP-al-rRc">
+            <objects>
+                <viewController id="Ngh-nZ-Umz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HLj-tv-Ljr"/>
+                        <viewControllerLayoutGuide type="bottom" id="eiI-52-kMc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cdF-g6-BbH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kUL-fe-XTB">
+                                <rect key="frame" x="58" y="161" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Rowell-Champion House " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eM2-W9-kH0">
+                                <rect key="frame" x="45" y="37" width="244" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Zf-2w-6r4">
+                                <rect key="frame" x="20" y="6" width="67" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <segue destination="nsJ-Sz-Mbs" kind="show" id="fxs-ug-suE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2f-p3-pSR">
+                                <rect key="frame" x="286" y="11" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cha-vS-gIl">
+                                <rect key="frame" x="58" y="363" width="254" height="181"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Greek Revival, Goshen’s oldest brick residence. In addition to the temple-like façade, consisting of pillars, pediment and classical ornament in the eaves, a special feature is the unusual front balcony, which extends onto the south side, creating an American</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A80-1h-Gao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4013.5" y="198.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rvJ-jB-krb">
+            <objects>
+                <viewController id="knV-jl-CvL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BbN-FM-8rV"/>
+                        <viewControllerLayoutGuide type="bottom" id="7OE-Ds-IK9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0WX-Ou-qQu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-14" translatesAutoresizingMaskIntoConstraints="NO" id="BfL-Ol-8DF">
+                                <rect key="frame" x="82" y="138" width="240" height="128"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ucW-9K-1Yt">
+                                <rect key="frame" x="48" y="346" width="292" height="186"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Brick industrial building, controlled flow of canal water into the Elkhart River and generated electricity for Goshen and surrounding area until the 1920s. Recently restored by the City of Goshen and available for special events. On the plaza, a kinetic sculpture “Dream Chaser” (2011) by Goshen artist John Mishler.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tailgates Building " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xa-ao-fib">
+                                <rect key="frame" x="131" y="28" width="146" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLI-bd-iuw">
+                                <rect key="frame" x="309" y="20" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="c1j-J0-mda" kind="show" id="USe-xk-0AB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WM3-C0-rIU">
+                                <rect key="frame" x="20" y="19" width="76" height="30"/>
+                                <state key="normal" title="Previous "/>
+                                <connections>
+                                    <segue destination="ZFl-gN-bBr" kind="show" id="7AF-gQ-Yv5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EJK-wa-v0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2792.5" y="198.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Pps-JI-HeM">
+            <objects>
+                <viewController id="c1j-J0-mda" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xgD-SW-f8J"/>
+                        <viewControllerLayoutGuide type="bottom" id="LZn-7T-KAo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xq2-YV-Rp6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KMn-21-apB">
+                                <rect key="frame" x="67" y="357" width="279" height="204"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Romanesque Revival, originally for stage shows, then films in 1912, renamed The Goshen Theater in 1948, use discontinued in 1987, now owned by a nonprofit group raising funds to restore the theater for live presentations. Fine old marquee. The classic interior has an arched proscenium ceiling, sloped seating, a curved balcony, and restrained classical decoration.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jefferson Theatre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhq-Vv-9tE">
+                                <rect key="frame" x="106" y="33" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8V-Qe-bcE">
+                                <rect key="frame" x="12" y="14" width="72" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <segue destination="knV-jl-CvL" kind="show" id="dzd-4w-Caz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFo-Cl-6cQ">
+                                <rect key="frame" x="300" y="20" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="nsJ-Sz-Mbs" kind="show" id="6OO-8Q-gSW"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-11" translatesAutoresizingMaskIntoConstraints="NO" id="FR9-Vn-JCP">
+                                <rect key="frame" x="67" y="136" width="257" height="154"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ww4-Fp-gov" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3200.5" y="198.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yyb-r4-1gG">
+            <objects>
+                <viewController id="tWn-xt-C0x" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g0F-Eb-Ftl"/>
+                        <viewControllerLayoutGuide type="bottom" id="gTl-bc-Qct"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Voi-Kb-iyu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PeN-Lh-kaN">
+                                <rect key="frame" x="78" y="353" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Rated the “outstanding” downtown commercial structure by the Elkhart County Interim Report because of its elaborate Renaissance Revival peak. Retains the only historic neon sign in Goshen</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sorg Jewelers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89K-oa-OOV">
+                                <rect key="frame" x="166" y="20" width="126" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgS-oT-rca">
+                                <rect key="frame" x="36" y="16" width="92" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <segue destination="CtF-0u-DrW" kind="show" id="UMh-Wl-J6H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfH-cE-BTS">
+                                <rect key="frame" x="300" y="20" width="46" height="30"/>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="HxV-rS-PMT"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-15" translatesAutoresizingMaskIntoConstraints="NO" id="cMu-yN-eQF">
+                                <rect key="frame" x="69" y="90" width="259" height="153"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jNI-X5-dbg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4000.5" y="940.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6YL-xf-TkW">
+            <objects>
+                <viewController id="CtF-0u-DrW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0jK-In-1Pv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cgp-z7-k0L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Afa-0a-YTz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Police Booth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDs-Ev-9Dh">
+                                <rect key="frame" x="134" y="20" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mrP-zb-Dvo">
+                                <rect key="frame" x="66" y="302" width="267" height="217"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Art Deco, octagonal limestone with decorative frieze at top. This structure was the police dispatch center until 1968, perhapsv originally intended also to monitor banks on two facing corners, due to the John Dillinger (d. 1934) scare and to heavy traffic on the Lincoln Highway, which passed through Goshen. Since 1996, owned and maintained by the Goshen Historical Society. Open on First Fridays and on request.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjM-g2-Ut3">
+                                <rect key="frame" x="38" y="16" width="69" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <segue destination="UAR-az-7rD" kind="show" id="Yc9-ig-sS9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEQ-zt-Din">
+                                <rect key="frame" x="299" y="20" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="tWn-xt-C0x" kind="show" id="ss6-SQ-wMw"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-3" translatesAutoresizingMaskIntoConstraints="NO" id="EWd-Em-BcW">
+                                <rect key="frame" x="86" y="90" width="240" height="154"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X8A-9Q-Aid" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3614.5" y="940.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="i0I-MD-QNx">
+            <objects>
+                <viewController id="UAR-az-7rD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rjn-WP-JWx"/>
+                        <viewControllerLayoutGuide type="bottom" id="hpk-bR-5cJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MBe-d4-qe9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ARN-Jg-Grl">
+                                <rect key="frame" x="67" y="98" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First National Bank " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkr-DA-5xw">
+                                <rect key="frame" x="135" y="20" width="181" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="q0b-oG-vO7">
+                                <rect key="frame" x="32" y="295" width="323" height="191"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Italian Renaissance Revival, with brackets and dentillated ornaments in the cornice, a row of Palladian style windows, and cast iron pillars and stairs. The identical west half, ruined by a fire, was recently renovated into an event space. The original iron vault for the City National Bank (1875-1881) remains in the east half.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JqT-X8-kmD">
+                                <rect key="frame" x="309" y="20" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="CtF-0u-DrW" kind="show" id="ee3-PQ-ekq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DS-Ka-rjL">
+                                <rect key="frame" x="32" y="16" width="74" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <segue destination="ZFl-gN-bBr" kind="show" id="kmx-O0-5XA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UM1-0Z-Hdt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3191.5" y="940.5"/>
+        </scene>
         <!--Title-->
         <scene sceneID="h4n-bV-KQT">
             <objects>
@@ -399,31 +756,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="qcx-mK-BfN">
-                            <size key="itemSize" width="50" height="50"/>
+                            <size key="itemSize" width="161" height="145"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fbc-vj-c7q">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pm-6e-TKW">
-                                            <rect key="frame" x="4" y="12" width="66" height="30"/>
-                                            <state key="normal" title="Previous"/>
-                                            <connections>
-                                                <segue destination="ZFl-gN-bBr" kind="show" id="xBX-IZ-gSi"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </view>
-                            </collectionViewCell>
-                        </cells>
+                        <cells/>
                         <connections>
                             <outlet property="dataSource" destination="s3M-vJ-4BE" id="cGg-j8-3Cv"/>
                             <outlet property="delegate" destination="s3M-vJ-4BE" id="neu-ey-tda"/>
@@ -454,26 +792,33 @@
                                         <rect key="frame" x="108" y="8" width="174" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <segue destination="UAR-az-7rD" kind="show" id="eIn-GN-r9t"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Police Booth " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ox-ma-ybA">
                                         <rect key="frame" x="108" y="100" width="174" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <segue destination="CtF-0u-DrW" kind="show" id="OKR-pg-vEf"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Tailgates Building" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fko-aB-AB1">
                                         <rect key="frame" x="108" y="188" width="174" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <segue destination="knV-jl-CvL" kind="show" id="2Qq-JX-29Q"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Jefferson Theatre" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FMr-Ac-Mr9">
                                         <rect key="frame" x="108" y="273" width="174" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sorg Jewelers" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F01-Zo-9bA">
-                                        <rect key="frame" x="108" y="439" width="188" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <segue destination="c1j-J0-mda" kind="show" id="eDb-TT-CwM"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Harper Block " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dPd-3j-VOS">
                                         <rect key="frame" x="108" y="519" width="188" height="30"/>
@@ -510,6 +855,9 @@
                                         <rect key="frame" x="108" y="361" width="188" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <segue destination="nsJ-Sz-Mbs" kind="show" id="eFR-50-aPH"/>
+                                        </connections>
                                     </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-14" translatesAutoresizingMaskIntoConstraints="NO" id="gju-Jb-sMz">
                                         <rect key="frame" x="0.0" y="188" width="105" height="77"/>
@@ -528,6 +876,11 @@
                                             <segue destination="s3M-vJ-4BE" kind="show" id="3KE-PH-evW"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sorg Jewelers" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F01-Zo-9bA">
+                                        <rect key="frame" x="108" y="439" width="188" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -628,11 +981,16 @@
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KTZ-8G-rpi"/>
-        <segue reference="WVz-gV-5rW"/>
-        <segue reference="wrU-B3-eID"/>
-        <segue reference="zx5-6g-DCP"/>
-        <segue reference="73S-05-GQh"/>
-        <segue reference="xBX-IZ-gSi"/>
+        <segue reference="OKR-pg-vEf"/>
+        <segue reference="kmx-O0-5XA"/>
+        <segue reference="eIn-GN-r9t"/>
+        <segue reference="eDb-TT-CwM"/>
+        <segue reference="2Qq-JX-29Q"/>
+        <segue reference="mN9-AE-1m4"/>
+        <segue reference="HxV-rS-PMT"/>
+        <segue reference="KiQ-F0-aae"/>
+        <segue reference="5lf-ej-RFn"/>
+        <segue reference="xVM-oN-9hE"/>
+        <segue reference="fxs-ug-suE"/>
     </inferredMetricsTieBreakers>
 </document>
