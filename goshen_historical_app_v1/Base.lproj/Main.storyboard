@@ -285,7 +285,7 @@
                                     <segue destination="Ngh-nZ-Umz" kind="show" id="hXU-md-9GS"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XPr-qd-PgG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XPr-qd-PgG">
                                 <rect key="frame" x="20" y="342" width="346" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Despite extensive exterior and interior alterations to serve the needs of a funeral home, it retains the basic structure of an impressive Second Empire dwelling, characterized by its verticality and mansard roof with dormers, which imitate a French architectural style associated with the reign of Napoleon III (d.1873). The curved porch was added in 1904. The home was built for the family of Chauncy W. Kerstetter, a druggist, and remained a residence until 1923, when it became the Culp Funeral Home (in 1964, Rieth-Rohrer-Ehret). For other Second Empire houses see 102 S. 6th St., 110 S. 7th St., and 213 S. 7th St.</string>
@@ -313,7 +313,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kUL-fe-XTB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-13" translatesAutoresizingMaskIntoConstraints="NO" id="kUL-fe-XTB">
                                 <rect key="frame" x="58" y="161" width="240" height="128"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Rowell-Champion House " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eM2-W9-kH0">
@@ -333,7 +333,7 @@
                                 <rect key="frame" x="286" y="11" width="46" height="30"/>
                                 <state key="normal" title="Next"/>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cha-vS-gIl">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cha-vS-gIl">
                                 <rect key="frame" x="58" y="363" width="254" height="181"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Greek Revival, Goshen’s oldest brick residence. In addition to the temple-like façade, consisting of pillars, pediment and classical ornament in the eaves, a special feature is the unusual front balcony, which extends onto the south side, creating an American</string>
@@ -364,7 +364,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-14" translatesAutoresizingMaskIntoConstraints="NO" id="BfL-Ol-8DF">
                                 <rect key="frame" x="82" y="138" width="240" height="128"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ucW-9K-1Yt">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ucW-9K-1Yt">
                                 <rect key="frame" x="48" y="346" width="292" height="186"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Brick industrial building, controlled flow of canal water into the Elkhart River and generated electricity for Goshen and surrounding area until the 1920s. Recently restored by the City of Goshen and available for special events. On the plaza, a kinetic sculpture “Dream Chaser” (2011) by Goshen artist John Mishler.</string>
@@ -412,7 +412,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KMn-21-apB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KMn-21-apB">
                                 <rect key="frame" x="67" y="357" width="279" height="204"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Romanesque Revival, originally for stage shows, then films in 1912, renamed The Goshen Theater in 1948, use discontinued in 1987, now owned by a nonprofit group raising funds to restore the theater for live presentations. Fine old marquee. The classic interior has an arched proscenium ceiling, sloped seating, a curved balcony, and restrained classical decoration.</string>
@@ -463,13 +463,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PeN-Lh-kaN">
-                                <rect key="frame" x="78" y="353" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Rated the “outstanding” downtown commercial structure by the Elkhart County Interim Report because of its elaborate Renaissance Revival peak. Retains the only historic neon sign in Goshen</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-15" translatesAutoresizingMaskIntoConstraints="NO" id="cMu-yN-eQF">
+                                <rect key="frame" x="69" y="90" width="259" height="153"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sorg Jewelers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89K-oa-OOV">
                                 <rect key="frame" x="166" y="20" width="126" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -490,9 +486,13 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="HxV-rS-PMT"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-15" translatesAutoresizingMaskIntoConstraints="NO" id="cMu-yN-eQF">
-                                <rect key="frame" x="69" y="90" width="259" height="153"/>
-                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PeN-Lh-kaN">
+                                <rect key="frame" x="78" y="352" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Rated the “outstanding” downtown commercial structure by the Elkhart County Interim Report because of its elaborate Renaissance Revival peak. Retains the only historic neon sign in Goshen</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -520,7 +520,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mrP-zb-Dvo">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mrP-zb-Dvo">
                                 <rect key="frame" x="66" y="302" width="267" height="217"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Art Deco, octagonal limestone with decorative frieze at top. This structure was the police dispatch center until 1968, perhapsv originally intended also to monitor banks on two facing corners, due to the John Dillinger (d. 1934) scare and to heavy traffic on the Lincoln Highway, which passed through Goshen. Since 1996, owned and maintained by the Goshen Historical Society. Open on First Fridays and on request.</string>
@@ -574,7 +574,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="q0b-oG-vO7">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="q0b-oG-vO7">
                                 <rect key="frame" x="32" y="295" width="323" height="191"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Italian Renaissance Revival, with brackets and dentillated ornaments in the cornice, a row of Palladian style windows, and cast iron pillars and stairs. The identical west half, ruined by a fire, was recently renovated into an event space. The original iron vault for the City National Bank (1875-1881) remains in the east half.</string>
@@ -630,9 +630,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="et6-mY-Gjj">
-                                <rect key="frame" x="20" y="127" width="330" height="194"/>
-                            </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kt-Un-ljL">
                                 <rect key="frame" x="20" y="28" width="82" height="30"/>
                                 <state key="normal" title="Previous"/>
@@ -644,6 +641,13 @@
                                 <rect key="frame" x="309" y="34" width="46" height="30"/>
                                 <state key="normal" title="Next"/>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uC5-ap-RiW">
+                                <rect key="frame" x="20" y="111" width="335" height="548"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">In 1983 the Goshen Historic Districtwas placed on the National Registerof Historic Places. Consisting of about45 city blocks, it is one of the largest inIndiana because it includes both theresidential and downtown commercialdistricts. It recognizes structures datingfrom c. 1847 in a district framed by PikeStreet to the north, the hydraulic canalto the west, Cottage Avenue to the eastand Plymouth Avenue to the south.Complete coverage of the district canbe found in the historic architecturalsurvey, Elkhart County Interim Report(2005), published by Indiana LandmarksFoundation and the Indiana Departmentof Natural Resources, available onlineand in print.Being listed in the National Register ofPublic Places protects historic buildingsonly if federal money is sought in order to change or demolish them. Otherprotection requires local legislation.In 2007 Goshen city governmentestablished legal guidelines to protectthe historic commercial structures foundin the area framed by Pike Street onthe north, Madison Street on the south,the east side of South Fifth Street andthe west side of South Third Street. Nolocal legislation has been passed forthe historic residential district. Datingfrom the 1870s, most of the upperfacades of the oldest storefronts reflectthe Italianate style, with brackets underoverhanging eaves and classical andother decorations.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -788,14 +792,6 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZIn-sM-pKs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="First National Bank " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V11-R4-Kmd">
-                                        <rect key="frame" x="108" y="8" width="174" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <segue destination="UAR-az-7rD" kind="show" id="eIn-GN-r9t"/>
-                                        </connections>
-                                    </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Police Booth " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ox-ma-ybA">
                                         <rect key="frame" x="108" y="100" width="174" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -819,6 +815,11 @@
                                         <connections>
                                             <segue destination="c1j-J0-mda" kind="show" id="eDb-TT-CwM"/>
                                         </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sorg Jewelers" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F01-Zo-9bA">
+                                        <rect key="frame" x="108" y="439" width="188" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Harper Block " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dPd-3j-VOS">
                                         <rect key="frame" x="108" y="519" width="188" height="30"/>
@@ -863,7 +864,7 @@
                                         <rect key="frame" x="0.0" y="188" width="105" height="77"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfQ-mE-69F">
-                                        <rect key="frame" x="204" y="35" width="184" height="30"/>
+                                        <rect key="frame" x="208" y="35" width="184" height="30"/>
                                         <state key="normal" title="Previous Page"/>
                                         <connections>
                                             <segue destination="VKO-L3-yMp" kind="show" id="mN9-AE-1m4"/>
@@ -876,11 +877,16 @@
                                             <segue destination="s3M-vJ-4BE" kind="show" id="3KE-PH-evW"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sorg Jewelers" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F01-Zo-9bA">
-                                        <rect key="frame" x="108" y="439" width="188" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhX-eN-XX9">
+                                        <rect key="frame" x="113" y="18" width="183" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                        <state key="normal" title="First National Bank ">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="UAR-az-7rD" kind="show" id="Th4-Ag-Jt8"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -904,27 +910,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YS2-D3-ogt">
-                                <rect key="frame" x="49" y="139" width="118" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <state key="normal" title="Address ">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHJ-DP-YgV">
-                                <rect key="frame" x="49" y="241" width="68" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <state key="normal" title="Email">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VM7-MB-qkl">
-                                <rect key="frame" x="32" y="350" width="118" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                <state key="normal" title="Phone">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQG-mS-n8G">
                                 <rect key="frame" x="266" y="459" width="71" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -953,6 +938,13 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="G6Z-Bg-eXg"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jAL-pg-U26">
+                                <rect key="frame" x="43" y="179" width="312" height="246"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">124 South Main StreetGoshen, IN 46526Ph: 574-326-7392Email: museum@goshenhistorical.orgWWW.GOSHENHISTORICAL.ORG</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -981,16 +973,16 @@
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OKR-pg-vEf"/>
+        <segue reference="ee3-PQ-ekq"/>
+        <segue reference="Yc9-ig-sS9"/>
         <segue reference="kmx-O0-5XA"/>
-        <segue reference="eIn-GN-r9t"/>
-        <segue reference="eDb-TT-CwM"/>
-        <segue reference="2Qq-JX-29Q"/>
-        <segue reference="mN9-AE-1m4"/>
-        <segue reference="HxV-rS-PMT"/>
-        <segue reference="KiQ-F0-aae"/>
-        <segue reference="5lf-ej-RFn"/>
-        <segue reference="xVM-oN-9hE"/>
-        <segue reference="fxs-ug-suE"/>
+        <segue reference="6OO-8Q-gSW"/>
+        <segue reference="USe-xk-0AB"/>
+        <segue reference="dzd-4w-Caz"/>
+        <segue reference="lfY-B6-J3m"/>
+        <segue reference="KTZ-8G-rpi"/>
+        <segue reference="73S-05-GQh"/>
+        <segue reference="zx5-6g-DCP"/>
+        <segue reference="G6Z-Bg-eXg"/>
     </inferredMetricsTieBreakers>
 </document>
