@@ -12,10 +12,21 @@ import UIKit
 
 import Alamofire
 
+var pageNumber: Int = 1
 
 
 class SecondViewController: UIViewController {
     
+	@IBAction func nextHouse(sender: AnyObject) {
+		if(pageNumber==big_array.count){
+			pageNumber = 1
+			self.sampletext2.text = big_array[pageNumber][4]
+		}
+		else{
+			pageNumber++
+			self.sampletext2.text = big_array[pageNumber][4]
+		}
+	}
     @IBOutlet weak var sampletext2: UILabel!
     @IBOutlet weak var sampletext: UILabel!
     
@@ -23,8 +34,10 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.sampletext2.text = big_array[3][4]
-        
+		self.sampletext2.text = big_array[pageNumber][4]
+		
+		
+		
         
     }
     

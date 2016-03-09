@@ -74,6 +74,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSr-v2-EKL">
                                 <rect key="frame" x="147" y="580" width="80" height="30"/>
                                 <state key="normal" title="Next House"/>
+                                <connections>
+                                    <action selector="nextHouse:" destination="eQy-Oq-OZj" eventType="touchUpInside" id="Lbf-df-NBC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ox4-Gu-1Fc">
                                 <rect key="frame" x="20" y="311" width="296" height="167"/>
