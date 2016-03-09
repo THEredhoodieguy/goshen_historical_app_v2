@@ -19,7 +19,7 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var picture2: UIImageView!
 	@IBAction func nextHouse(sender: AnyObject) {
-		if(pageNumber==big_array.count){
+		if(pageNumber==big_array.count - 1){
 			pageNumber = 1
 			self.sampletext2.text = big_array[pageNumber][4]
             
