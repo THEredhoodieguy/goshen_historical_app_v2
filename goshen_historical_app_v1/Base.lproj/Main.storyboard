@@ -288,7 +288,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XPr-qd-PgG">
                                 <rect key="frame" x="20" y="342" width="346" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Despite extensive exterior and interior alterations to serve the needs of a funeral home, it retains the basic structure of an impressive Second Empire dwelling, characterized by its verticality and mansard roof with dormers, which imitate a French architectural style associated with the reign of Napoleon III (d.1873). The curved porch was added in 1904. The home was built for the family of Chauncy W. Kerstetter, a druggist, and remained a residence until 1923, when it became the Culp Funeral Home (in 1964, Rieth-Rohrer-Ehret). For other Second Empire houses see 102 S. 6th St., 110 S. 7th St., and 213 S. 7th St.</mutableString>
+                                <string key="text">Despite extensive exterior and interior alterations to serve the needs of a funeral home, it retains the basic structure of an impressive Second Empire dwelling, characterized by its verticality and mansard roof with dormers, which imitate a French architectural style associated with the reign of Napoleon III (d.1873). The curved porch was added in 1904. The home was built for the family of Chauncy W. Kerstetter, a druggist, and remained a residence until 1923, when it became the Culp Funeral Home (in 1964, Rieth-Rohrer-Ehret). For other Second Empire houses see 102 S. 6th St., 110 S. 7th St., and 213 S. 7th St.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -644,7 +644,42 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uC5-ap-RiW">
                                 <rect key="frame" x="20" y="111" width="335" height="548"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">In 1983 the Goshen Historic Districtwas placed on the National Registerof Historic Places. Consisting of about45 city blocks, it is one of the largest inIndiana because it includes both theresidential and downtown commercialdistricts. It recognizes structures datingfrom c. 1847 in a district framed by PikeStreet to the north, the hydraulic canalto the west, Cottage Avenue to the eastand Plymouth Avenue to the south.Complete coverage of the district canbe found in the historic architecturalsurvey, Elkhart County Interim Report(2005), published by Indiana LandmarksFoundation and the Indiana Departmentof Natural Resources, available onlineand in print.Being listed in the National Register ofPublic Places protects historic buildingsonly if federal money is sought in order to change or demolish them. Otherprotection requires local legislation.In 2007 Goshen city governmentestablished legal guidelines to protectthe historic commercial structures foundin the area framed by Pike Street onthe north, Madison Street on the south,the east side of South Fifth Street andthe west side of South Third Street. Nolocal legislation has been passed forthe historic residential district. Datingfrom the 1870s, most of the upperfacades of the oldest storefronts reflectthe Italianate style, with brackets underoverhanging eaves and classical andother decorations.</mutableString>
+                                <string key="text">In 1983 the Goshen Historic District
+was placed on the National Register
+of Historic Places. Consisting of about
+45 city blocks, it is one of the largest in
+Indiana because it includes both the
+residential and downtown commercial
+districts. It recognizes structures dating
+from c. 1847 in a district framed by Pike
+Street to the north, the hydraulic canal
+to the west, Cottage Avenue to the east
+and Plymouth Avenue to the south.
+Complete coverage of the district can
+be found in the historic architectural
+survey, Elkhart County Interim Report
+(2005), published by Indiana Landmarks
+Foundation and the Indiana Department
+of Natural Resources, available online
+and in print.
+Being listed in the National Register of
+Public Places protects historic buildings
+only if federal money is sought in order to change or demolish them. Other
+protection requires local legislation.
+In 2007 Goshen city government
+established legal guidelines to protect
+the historic commercial structures found
+in the area framed by Pike Street on
+the north, Madison Street on the south,
+the east side of South Fifth Street and
+the west side of South Third Street. No
+local legislation has been passed for
+the historic residential district. Dating
+from the 1870s, most of the upper
+facades of the oldest storefronts reflect
+the Italianate style, with brackets under
+overhanging eaves and classical and
+other decorations.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -792,40 +827,6 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZIn-sM-pKs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Police Booth " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ox-ma-ybA">
-                                        <rect key="frame" x="108" y="100" width="174" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <segue destination="CtF-0u-DrW" kind="show" id="OKR-pg-vEf"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Tailgates Building" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fko-aB-AB1">
-                                        <rect key="frame" x="108" y="188" width="174" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <segue destination="knV-jl-CvL" kind="show" id="2Qq-JX-29Q"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Jefferson Theatre" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FMr-Ac-Mr9">
-                                        <rect key="frame" x="108" y="273" width="174" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <segue destination="c1j-J0-mda" kind="show" id="eDb-TT-CwM"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sorg Jewelers" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F01-Zo-9bA">
-                                        <rect key="frame" x="108" y="439" width="188" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Harper Block " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dPd-3j-VOS">
-                                        <rect key="frame" x="108" y="519" width="188" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0KK-LY-208">
                                         <rect key="frame" x="0.0" y="8" width="105" height="84"/>
                                     </imageView>
@@ -847,19 +848,6 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-13" translatesAutoresizingMaskIntoConstraints="NO" id="4kX-8w-gtR">
                                         <rect key="frame" x="0.0" y="593" width="105" height="74"/>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Rowell-Champion House " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="87w-Xg-qng">
-                                        <rect key="frame" x="108" y="599" width="251" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Kerstetter House" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dHL-sD-4iK">
-                                        <rect key="frame" x="108" y="361" width="188" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <segue destination="nsJ-Sz-Mbs" kind="show" id="eFR-50-aPH"/>
-                                        </connections>
-                                    </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-14" translatesAutoresizingMaskIntoConstraints="NO" id="gju-Jb-sMz">
                                         <rect key="frame" x="0.0" y="188" width="105" height="77"/>
                                     </imageView>
@@ -886,6 +874,34 @@
                                         <connections>
                                             <segue destination="UAR-az-7rD" kind="show" id="Th4-Ag-Jt8"/>
                                         </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aph-at-T6O">
+                                        <rect key="frame" x="113" y="100" width="145" height="30"/>
+                                        <state key="normal" title="The Police Booth "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WG-W9-0t1">
+                                        <rect key="frame" x="113" y="593" width="217" height="30"/>
+                                        <state key="normal" title="The Rowell-Champion House "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7J-8Y-e1e">
+                                        <rect key="frame" x="118" y="519" width="107" height="30"/>
+                                        <state key="normal" title="Harper Block "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-Px-WQz">
+                                        <rect key="frame" x="113" y="439" width="122" height="30"/>
+                                        <state key="normal" title="Sorg Jewelers"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1g-eA-ezT">
+                                        <rect key="frame" x="118" y="361" width="164" height="30"/>
+                                        <state key="normal" title="The Kerstetter House"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="348-se-g0I">
+                                        <rect key="frame" x="118" y="273" width="136" height="30"/>
+                                        <state key="normal" title="Jefferson Theatre"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p25-23-7ff">
+                                        <rect key="frame" x="116" y="188" width="142" height="30"/>
+                                        <state key="normal" title="Tailgates Building"/>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -941,7 +957,11 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jAL-pg-U26">
                                 <rect key="frame" x="43" y="179" width="312" height="246"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">124 South Main StreetGoshen, IN 46526Ph: 574-326-7392Email: museum@goshenhistorical.orgWWW.GOSHENHISTORICAL.ORG</string>
+                                <string key="text">124 South Main Street
+Goshen, IN 46526
+Ph: 574-326-7392
+Email: museum@goshenhistorical.org
+WWW.GOSHENHISTORICAL.ORG</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -973,16 +993,15 @@
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ee3-PQ-ekq"/>
-        <segue reference="Yc9-ig-sS9"/>
-        <segue reference="kmx-O0-5XA"/>
-        <segue reference="6OO-8Q-gSW"/>
-        <segue reference="USe-xk-0AB"/>
-        <segue reference="dzd-4w-Caz"/>
-        <segue reference="lfY-B6-J3m"/>
-        <segue reference="KTZ-8G-rpi"/>
-        <segue reference="73S-05-GQh"/>
         <segue reference="zx5-6g-DCP"/>
+        <segue reference="73S-05-GQh"/>
         <segue reference="G6Z-Bg-eXg"/>
+        <segue reference="USe-xk-0AB"/>
+        <segue reference="6OO-8Q-gSW"/>
+        <segue reference="pyt-3g-HCp"/>
+        <segue reference="mN9-AE-1m4"/>
+        <segue reference="KTZ-8G-rpi"/>
+        <segue reference="Th4-Ag-Jt8"/>
+        <segue reference="ee3-PQ-ekq"/>
     </inferredMetricsTieBreakers>
 </document>
