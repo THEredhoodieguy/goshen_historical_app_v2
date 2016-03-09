@@ -17,14 +17,23 @@ var pageNumber: Int = 1
 
 class SecondViewController: UIViewController {
     
+    @IBOutlet weak var picture2: UIImageView!
 	@IBAction func nextHouse(sender: AnyObject) {
 		if(pageNumber==big_array.count){
 			pageNumber = 1
 			self.sampletext2.text = big_array[pageNumber][4]
+            
+            Alamofire.request(.GET, big_array[pageNumber][3]).response { (request, response, data, error) in
+                self.picture2.image = UIImage(data: data!, scale:1)
+            }
 		}
 		else{
 			pageNumber++
 			self.sampletext2.text = big_array[pageNumber][4]
+            
+            Alamofire.request(.GET, big_array[pageNumber][3]).response { (request, response, data, error) in
+                self.picture2.image = UIImage(data: data!, scale:1)
+            }
 		}
 	}
     @IBOutlet weak var sampletext2: UILabel!
@@ -35,6 +44,10 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		self.sampletext2.text = big_array[pageNumber][4]
+        
+        Alamofire.request(.GET, big_array[pageNumber][3]).response { (request, response, data, error) in
+            self.picture2.image = UIImage(data: data!, scale:1)
+        }
 		
 		
 		

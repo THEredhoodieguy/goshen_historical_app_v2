@@ -84,10 +84,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="st7-50-I8S">
+                                <rect key="frame" x="67" y="160" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="picture2" destination="st7-50-I8S" id="nrR-bi-vfT"/>
                         <outlet property="sampletext2" destination="Ox4-Gu-1Fc" id="L6s-9R-gWd"/>
                     </connections>
                 </viewController>
