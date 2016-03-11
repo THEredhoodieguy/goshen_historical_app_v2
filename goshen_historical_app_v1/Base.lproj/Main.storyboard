@@ -997,7 +997,29 @@ other decorations.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QEJ-Eo-g55">
                                 <rect key="frame" x="67" y="268" width="277" height="391"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">The Elkhart County Court House, in the centerof a perfect town square, dominates the district. ItsItalian Renaissance style was designed by the Chicagofirm of Patton and Miller in 1906, as a remodelingand expansion of the 1870 building designed byBarrows and Garnsey of Chicago. The first courthouse, in a classical style, was built in 1833. The clocktower houses a clock by E. Howard &amp; Co., Roxbury,MA, dating from 1870. On the east lawn are a War Memorial and the Neptune fountain, given tothe county in 1912 by J. Polezoes, a grateful Greekimmigrant who owned the Columbia Candy Kitchenat 110 S. Main. On the west side stands Old Bullion,a cannon made in Goshen that pre-dates the CivilWar (c. 1855). Fine interior features include the wellpreserved circuit court room with its panelingand decorative wall paintings and, in the office ofthe circuit court judge, an 1860 Lincoln campaignbanner by J. H. Dille, which depicts Lincoln (forpresident), Hannibal Hamblin (v.p.) and Henry SmithLane (gov.). Visitors enter at the west entrance; grouptours can be arranged by calling 574-975-0033. DVDsof the courthouse and the clock are available at theGoshen Historical Society Museum.</mutableString>
+                                <string key="text">The Elkhart County Court House, in the center
+of a perfect town square, dominates the district. Its
+Italian Renaissance style was designed by the Chicago
+firm of Patton and Miller in 1906, as a remodeling
+and expansion of the 1870 building designed by
+Barrows and Garnsey of Chicago. The first court
+house, in a classical style, was built in 1833. The clock
+tower houses a clock by E. Howard &amp; Co., Roxbury,
+MA, dating from 1870. On the east lawn are a War Memorial and the Neptune fountain, given to
+the county in 1912 by J. Polezoes, a grateful Greek
+immigrant who owned the Columbia Candy Kitchen
+at 110 S. Main. On the west side stands Old Bullion,
+a cannon made in Goshen that pre-dates the Civil
+War (c. 1855). Fine interior features include the well
+preserved circuit court room with its paneling
+and decorative wall paintings and, in the office of
+the circuit court judge, an 1860 Lincoln campaign
+banner by J. H. Dille, which depicts Lincoln (for
+president), Hannibal Hamblin (v.p.) and Henry Smith
+Lane (gov.). Visitors enter at the west entrance; group
+tours can be arranged by calling 574-975-0033. DVDs
+of the courthouse and the clock are available at the
+Goshen Historical Society Museum.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
