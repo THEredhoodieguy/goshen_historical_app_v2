@@ -904,12 +904,18 @@ other decorations.</string>
                                         <state key="normal" title="Jefferson Theatre">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="c1j-J0-mda" kind="show" id="xBo-ss-h1V"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p25-23-7ff">
                                         <rect key="frame" x="116" y="188" width="142" height="30"/>
                                         <state key="normal" title="Tailgates Building">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="knV-jl-CvL" kind="show" id="iYo-5E-nA0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7J-8Y-e1e">
                                         <rect key="frame" x="118" y="519" width="107" height="30"/>
@@ -1007,15 +1013,16 @@ WWW.GOSHENHISTORICAL.ORG</string>
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zx5-6g-DCP"/>
-        <segue reference="73S-05-GQh"/>
-        <segue reference="G6Z-Bg-eXg"/>
-        <segue reference="USe-xk-0AB"/>
-        <segue reference="6OO-8Q-gSW"/>
+        <segue reference="ee3-PQ-ekq"/>
+        <segue reference="Th4-Ag-Jt8"/>
         <segue reference="pyt-3g-HCp"/>
         <segue reference="mN9-AE-1m4"/>
         <segue reference="KTZ-8G-rpi"/>
-        <segue reference="Th4-Ag-Jt8"/>
-        <segue reference="ee3-PQ-ekq"/>
+        <segue reference="xBo-ss-h1V"/>
+        <segue reference="iYo-5E-nA0"/>
+        <segue reference="6OO-8Q-gSW"/>
+        <segue reference="G6Z-Bg-eXg"/>
+        <segue reference="73S-05-GQh"/>
+        <segue reference="zx5-6g-DCP"/>
     </inferredMetricsTieBreakers>
 </document>
