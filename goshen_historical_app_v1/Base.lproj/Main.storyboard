@@ -288,8 +288,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gha_home" width="375" height="667"/>
-        <image name="gha_tour1.2" width="375" height="667"/>
+        <image name="gha_home" width="750" height="1334"/>
+        <image name="gha_tour1.2" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="fQv-Ky-Ja4"/>
