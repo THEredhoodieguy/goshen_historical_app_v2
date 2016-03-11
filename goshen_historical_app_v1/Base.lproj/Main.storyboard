@@ -614,7 +614,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ARN-Jg-Grl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-16" translatesAutoresizingMaskIntoConstraints="NO" id="ARN-Jg-Grl">
                                 <rect key="frame" x="67" y="98" width="240" height="128"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First National Bank " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkr-DA-5xw">
@@ -1081,6 +1081,7 @@ WWW.GOSHENHISTORICAL.ORG</string>
         <image name="Image-13" width="464" height="292"/>
         <image name="Image-14" width="465" height="292"/>
         <image name="Image-15" width="536" height="633"/>
+        <image name="Image-16" width="1152" height="864"/>
         <image name="Image-3" width="464" height="292"/>
         <image name="Image-4" width="1250" height="814"/>
         <image name="Image-5" width="465" height="292"/>
