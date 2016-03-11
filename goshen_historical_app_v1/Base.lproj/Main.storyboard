@@ -350,6 +350,55 @@
             <point key="canvasLocation" x="4013.5" y="198.5"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="Djy-Sn-uKT">
+            <objects>
+                <viewController id="W5M-dz-2c2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q0u-az-ZGh"/>
+                        <viewControllerLayoutGuide type="bottom" id="40W-yB-CQK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l8r-Pc-KMN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-5" translatesAutoresizingMaskIntoConstraints="NO" id="nUB-8g-RP8">
+                                <rect key="frame" x="57" y="39" width="289" height="170"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="c1K-9b-tfY">
+                                <rect key="frame" x="62" y="251" width="277" height="234"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Chicago School architecture, office building with Prairie influence, classical decorations in Art Deco style. Restored grand ballroom on the third floor. E. Hill Turnock, architect. Originally housed the Spohn business, which made and sold veterinarian supplies.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1d-EI-1h3">
+                                <rect key="frame" x="102" y="1" width="168" height="30"/>
+                                <state key="normal" title="Spohn Building "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vp-l9-Iiw">
+                                <rect key="frame" x="7" y="1" width="78" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <segue destination="VKO-L3-yMp" kind="show" id="5DW-qi-gas"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pC-k7-e1q">
+                                <rect key="frame" x="270" y="0.0" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="3Xa-ag-8eF" kind="show" id="qQv-Y3-JiF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nd1-TK-Cg9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2233.5" y="58.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="rvJ-jB-krb">
             <objects>
                 <viewController id="knV-jl-CvL" sceneMemberID="viewController">
@@ -719,6 +768,9 @@ other decorations.</string>
                                 <state key="normal" title="Courthouse">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3Xa-ag-8eF" kind="show" id="g9q-Sc-LBl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShD-X5-ZdP">
                                 <rect key="frame" x="138" y="391" width="195" height="30"/>
@@ -733,6 +785,9 @@ other decorations.</string>
                                 <state key="normal" title="Spohn Building ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="W5M-dz-2c2" kind="show" id="P61-2M-RaR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKC-9K-Bhx">
                                 <rect key="frame" x="133" y="520" width="178" height="30"/>
@@ -787,31 +842,6 @@ other decorations.</string>
             </objects>
             <point key="canvasLocation" x="1807.5" y="940.5"/>
         </scene>
-        <!--Collection View Controller-->
-        <scene sceneID="6yI-xc-guk">
-            <objects>
-                <collectionViewController id="s3M-vJ-4BE" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ydt-hW-cv6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="qcx-mK-BfN">
-                            <size key="itemSize" width="161" height="145"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells/>
-                        <connections>
-                            <outlet property="dataSource" destination="s3M-vJ-4BE" id="cGg-j8-3Cv"/>
-                            <outlet property="delegate" destination="s3M-vJ-4BE" id="neu-ey-tda"/>
-                        </connections>
-                    </collectionView>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gbc-3J-B7Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2682.5" y="940.5"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="hin-vm-dTo">
             <objects>
@@ -861,9 +891,6 @@ other decorations.</string>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUH-PB-1Kk">
                                         <rect key="frame" x="284" y="73" width="46" height="30"/>
                                         <state key="normal" title="Next"/>
-                                        <connections>
-                                            <segue destination="s3M-vJ-4BE" kind="show" id="3KE-PH-evW"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhX-eN-XX9">
                                         <rect key="frame" x="113" y="18" width="183" height="30"/>
@@ -933,6 +960,55 @@ other decorations.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aLp-wH-Bkj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2257.5" y="940.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bGj-49-NB6">
+            <objects>
+                <viewController id="3Xa-ag-8eF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k12-UG-Vtt"/>
+                        <viewControllerLayoutGuide type="bottom" id="fLs-o3-jny"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DZ0-eh-Q6V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-4" translatesAutoresizingMaskIntoConstraints="NO" id="lWf-An-ihv">
+                                <rect key="frame" x="39" y="49" width="305" height="173"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAI-yD-1Jv">
+                                <rect key="frame" x="143" y="11" width="163" height="30"/>
+                                <state key="normal" title="CourtHouse"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiD-0E-Snj">
+                                <rect key="frame" x="12" y="6" width="74" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <segue destination="VKO-L3-yMp" kind="show" id="uBk-rh-lGB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIT-Ck-kYY">
+                                <rect key="frame" x="298" y="6" width="46" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="UAR-az-7rD" kind="show" id="WZs-4b-xwt"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QEJ-Eo-g55">
+                                <rect key="frame" x="67" y="268" width="277" height="391"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The Elkhart County Court House, in the centerof a perfect town square, dominates the district. ItsItalian Renaissance style was designed by the Chicagofirm of Patton and Miller in 1906, as a remodelingand expansion of the 1870 building designed byBarrows and Garnsey of Chicago. The first courthouse, in a classical style, was built in 1833. The clocktower houses a clock by E. Howard &amp; Co., Roxbury,MA, dating from 1870. On the east lawn are a War Memorial and the Neptune fountain, given tothe county in 1912 by J. Polezoes, a grateful Greekimmigrant who owned the Columbia Candy Kitchenat 110 S. Main. On the west side stands Old Bullion,a cannon made in Goshen that pre-dates the CivilWar (c. 1855). Fine interior features include the wellpreserved circuit court room with its panelingand decorative wall paintings and, in the office ofthe circuit court judge, an 1860 Lincoln campaignbanner by J. H. Dille, which depicts Lincoln (forpresident), Hannibal Hamblin (v.p.) and Henry SmithLane (gov.). Visitors enter at the west entrance; grouptours can be arranged by calling 574-975-0033. DVDsof the courthouse and the clock are available at theGoshen Historical Society Museum.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hmm-7K-O6X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2715.5" y="940.5"/>
         </scene>
         <!--Title-->
         <scene sceneID="gpF-PR-b5k">
@@ -1014,15 +1090,16 @@ WWW.GOSHENHISTORICAL.ORG</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ee3-PQ-ekq"/>
-        <segue reference="Th4-Ag-Jt8"/>
-        <segue reference="pyt-3g-HCp"/>
-        <segue reference="mN9-AE-1m4"/>
+        <segue reference="WZs-4b-xwt"/>
+        <segue reference="g9q-Sc-LBl"/>
+        <segue reference="uBk-rh-lGB"/>
         <segue reference="KTZ-8G-rpi"/>
+        <segue reference="wrU-B3-eID"/>
+        <segue reference="kmx-O0-5XA"/>
         <segue reference="xBo-ss-h1V"/>
         <segue reference="iYo-5E-nA0"/>
         <segue reference="6OO-8Q-gSW"/>
-        <segue reference="G6Z-Bg-eXg"/>
-        <segue reference="73S-05-GQh"/>
         <segue reference="zx5-6g-DCP"/>
+        <segue reference="73S-05-GQh"/>
     </inferredMetricsTieBreakers>
 </document>
