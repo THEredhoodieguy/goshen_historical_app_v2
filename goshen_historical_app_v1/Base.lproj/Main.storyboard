@@ -877,31 +877,45 @@ other decorations.</string>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aph-at-T6O">
                                         <rect key="frame" x="113" y="100" width="145" height="30"/>
-                                        <state key="normal" title="The Police Booth "/>
+                                        <state key="normal" title="The Police Booth ">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WG-W9-0t1">
                                         <rect key="frame" x="113" y="593" width="217" height="30"/>
-                                        <state key="normal" title="The Rowell-Champion House "/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7J-8Y-e1e">
-                                        <rect key="frame" x="118" y="519" width="107" height="30"/>
-                                        <state key="normal" title="Harper Block "/>
+                                        <state key="normal" title="The Rowell-Champion House ">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ba-Px-WQz">
                                         <rect key="frame" x="113" y="439" width="122" height="30"/>
-                                        <state key="normal" title="Sorg Jewelers"/>
+                                        <state key="normal" title="Sorg Jewelers">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1g-eA-ezT">
                                         <rect key="frame" x="118" y="361" width="164" height="30"/>
-                                        <state key="normal" title="The Kerstetter House"/>
+                                        <state key="normal" title="The Kerstetter House">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="348-se-g0I">
                                         <rect key="frame" x="118" y="273" width="136" height="30"/>
-                                        <state key="normal" title="Jefferson Theatre"/>
+                                        <state key="normal" title="Jefferson Theatre">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p25-23-7ff">
                                         <rect key="frame" x="116" y="188" width="142" height="30"/>
-                                        <state key="normal" title="Tailgates Building"/>
+                                        <state key="normal" title="Tailgates Building">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7J-8Y-e1e">
+                                        <rect key="frame" x="118" y="519" width="107" height="30"/>
+                                        <state key="normal" title="Harper Block ">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                     </button>
                                 </subviews>
                             </scrollView>
