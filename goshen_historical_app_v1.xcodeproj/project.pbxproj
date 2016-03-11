@@ -14,6 +14,9 @@
 		8BDCD5011C5FC16200418D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDCD4FF1C5FC16200418D16 /* LaunchScreen.storyboard */; };
 		8BDCD50C1C5FC16200418D16 /* goshen_historical_app_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCD50B1C5FC16200418D16 /* goshen_historical_app_v1Tests.swift */; };
 		8BDCD5171C5FC16200418D16 /* goshen_historical_app_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCD5161C5FC16200418D16 /* goshen_historical_app_v1UITests.swift */; };
+		E1C2A3541C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
+		E1C2A3551C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
+		E1C2A3561C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		8BDCD5121C5FC16200418D16 /* goshen_historical_app_v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goshen_historical_app_v1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDCD5161C5FC16200418D16 /* goshen_historical_app_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goshen_historical_app_v1UITests.swift; sourceTree = "<group>"; };
 		8BDCD5181C5FC16200418D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C2A3531C8DE4980008278B /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				8BDCD4F61C5FC16200418D16 /* AppDelegate.swift */,
 				8BDCD4F81C5FC16200418D16 /* ViewController.swift */,
 				8BDCD4FA1C5FC16200418D16 /* Main.storyboard */,
+				E1C2A3531C8DE4980008278B /* Site.swift */,
 				8BDCD4FD1C5FC16200418D16 /* Assets.xcassets */,
 				8BDCD4FF1C5FC16200418D16 /* LaunchScreen.storyboard */,
 				8BDCD5021C5FC16200418D16 /* Info.plist */,
@@ -257,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BDCD4F91C5FC16200418D16 /* ViewController.swift in Sources */,
+				E1C2A3541C8DE4980008278B /* Site.swift in Sources */,
 				8BDCD4F71C5FC16200418D16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C2A3551C8DE4980008278B /* Site.swift in Sources */,
 				8BDCD50C1C5FC16200418D16 /* goshen_historical_app_v1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C2A3561C8DE4980008278B /* Site.swift in Sources */,
 				8BDCD5171C5FC16200418D16 /* goshen_historical_app_v1UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
