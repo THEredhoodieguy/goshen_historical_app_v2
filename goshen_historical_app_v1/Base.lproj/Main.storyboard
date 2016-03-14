@@ -18,9 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="9cZ-Zg-wwD">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ey-sk-k5M">
                                 <rect key="frame" x="134" y="421" width="124" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
@@ -59,6 +56,9 @@
                                     <segue destination="eQy-Oq-OZj" kind="show" id="bMC-gg-IJH"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="9cZ-Zg-wwD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1107,17 +1107,17 @@ WWW.GOSHENHISTORICAL.ORG</string>
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6OO-8Q-gSW"/>
-        <segue reference="xBo-ss-h1V"/>
-        <segue reference="kmx-O0-5XA"/>
+        <segue reference="zx5-6g-DCP"/>
+        <segue reference="5lf-ej-RFn"/>
+        <segue reference="G6Z-Bg-eXg"/>
+        <segue reference="xVM-oN-9hE"/>
+        <segue reference="WVz-gV-5rW"/>
+        <segue reference="g9q-Sc-LBl"/>
+        <segue reference="iYo-5E-nA0"/>
+        <segue reference="7AF-gQ-Yv5"/>
         <segue reference="Th4-Ag-Jt8"/>
         <segue reference="ee3-PQ-ekq"/>
-        <segue reference="mN9-AE-1m4"/>
-        <segue reference="iYo-5E-nA0"/>
-        <segue reference="g9q-Sc-LBl"/>
-        <segue reference="KTZ-8G-rpi"/>
-        <segue reference="wrU-B3-eID"/>
-        <segue reference="zx5-6g-DCP"/>
-        <segue reference="73S-05-GQh"/>
+        <segue reference="USe-xk-0AB"/>
+        <segue reference="6OO-8Q-gSW"/>
     </inferredMetricsTieBreakers>
 </document>
