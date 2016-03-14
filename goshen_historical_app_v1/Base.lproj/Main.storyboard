@@ -1015,7 +1015,7 @@ Lane (gov.). Visitors enter at the west entrance; group
 tours can be arranged by calling 574-975-0033. DVDs
 of the courthouse and the clock are available at the
 Goshen Historical Society Museum.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -1107,17 +1107,17 @@ WWW.GOSHENHISTORICAL.ORG</string>
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ee3-PQ-ekq"/>
-        <segue reference="Th4-Ag-Jt8"/>
-        <segue reference="7AF-gQ-Yv5"/>
-        <segue reference="iYo-5E-nA0"/>
-        <segue reference="USe-xk-0AB"/>
-        <segue reference="6OO-8Q-gSW"/>
-        <segue reference="WVz-gV-5rW"/>
         <segue reference="xVM-oN-9hE"/>
         <segue reference="G6Z-Bg-eXg"/>
         <segue reference="5lf-ej-RFn"/>
         <segue reference="KiQ-F0-aae"/>
+        <segue reference="ee3-PQ-ekq"/>
+        <segue reference="WZs-4b-xwt"/>
         <segue reference="g9q-Sc-LBl"/>
+        <segue reference="uBk-rh-lGB"/>
+        <segue reference="7AF-gQ-Yv5"/>
+        <segue reference="iYo-5E-nA0"/>
+        <segue reference="USe-xk-0AB"/>
+        <segue reference="6OO-8Q-gSW"/>
     </inferredMetricsTieBreakers>
 </document>
