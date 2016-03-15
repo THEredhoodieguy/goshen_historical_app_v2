@@ -9,6 +9,8 @@
 
 import UIKit
 
+import Foundation
+
 import Alamofire
 
 var big_array = Array<Array<String>>()
@@ -37,10 +39,32 @@ class ViewController: UIViewController {
                 }
 
                 //self.sampletext.text = big_array[3][4]
-                Alamofire.request(.GET, big_array[3][3]).response { (request, response, data, error) in
+                /*Alamofire.request(.GET, big_array[3][3]).response { (request, response, data, error) in
                 self.picture.image = UIImage(data: data!, scale:1)
+                }*/
+                //print(String(values_array))
+                
+                
+                
+        //file handling here
+                let file: NSFileHandle? = NSFileHandle(forReadingAtPath: "/Users/kpfriesen/Desktop/goshen_historical_app_v2/file.txt")
+                
+                if file != nil {
+                    // Read all the data
+                    let data = file?.readDataToEndOfFile()
+                    
+                    // Close the file
+                    file?.closeFile()
+                    
+                    // Convert our data to string
+                    let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
+                    print(str!)
+                }
+                else {
+                    print("Ooops! Something went wrong!")
                 }
 
+                
                 
         }
         
