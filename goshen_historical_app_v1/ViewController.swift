@@ -47,23 +47,12 @@ class ViewController: UIViewController {
                 
                 
         //file handling here
-                let file: NSFileHandle? = NSFileHandle(forReadingAtPath: "/Users/kpfriesen/Desktop/goshen_historical_app_v2/file.txt")
+                let location = NSString(string: "/Users/matthewwp/Desktop/goshen_historical_app_v2/file.txt")
                 
-                if file != nil {
-                    // Read all the data
-                    let data = file?.readDataToEndOfFile()
-                    
-                    // Close the file
-                    file?.closeFile()
-                    
-                    // Convert our data to string
-                    let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
-                    print(str!)
-                }
-                else {
-                    print("Ooops! Something went wrong!")
-                }
-
+                //NSString(string:"\(NSHomeDirectory())/file.txt")
+                let fileContent = try? NSString(contentsOfFile: location as String, encoding: NSUTF8StringEncoding)
+                
+                print(fileContent)
                 
                 
         }
