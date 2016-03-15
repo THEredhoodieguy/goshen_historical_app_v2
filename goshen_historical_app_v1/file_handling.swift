@@ -20,15 +20,14 @@ func read_from_file() -> String {
     
     
     print(destinationPath)
+    
     let filemgr = NSFileManager.defaultManager()
+    
     if filemgr.fileExistsAtPath(destinationPath) {
         print("File exists")
         do {
-            let readFile = try String(contentsOfFile: destinationPath, encoding: NSUTF8StringEncoding)
-            output_str = readFile
-            
-            print(readFile)
-            // the above prints "some text"
+            //Set file to output
+            output_str = try String(contentsOfFile: destinationPath, encoding: NSUTF8StringEncoding)
         } catch let error as NSError {
             print("Error: \(error)")
         }
@@ -43,6 +42,6 @@ func read_from_file() -> String {
     
 }
 
-func write_to_file() -> Void {
+func write_to_file(input_str: String) -> Void {
     //TO DO
 }
