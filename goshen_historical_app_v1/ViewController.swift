@@ -47,7 +47,7 @@ class ViewController: UIViewController {
                 
                 
         //file handling here
-                let file: NSFileHandle? = NSFileHandle(forReadingAtPath: "/Users/kpfriesen/Desktop/goshen_historical_app_v2/file.txt")
+                let file: NSFileHandle? = NSFileHandle(forReadingAtPath: "file.txt")
                 
                 if file != nil {
                     // Read all the data

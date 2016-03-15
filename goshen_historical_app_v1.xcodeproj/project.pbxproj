@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5657041E1C9878DF00B84DBE /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5657041D1C9878DF00B84DBE /* file.txt */; };
+		565704261C987D4800B84DBE /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = 565704251C987D4800B84DBE /* Documents */; };
 		56B16A591C89EFD20012B4C8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B16A581C89EFD20012B4C8 /* SecondViewController.swift */; };
 		8B5A41821C9329CB007CCED2 /* ResidentialRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A41811C9329CB007CCED2 /* ResidentialRequest.swift */; };
 		8BD3DD791C739FC600AFEAAE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0DFAB51C65082C00B0CDD5 /* Alamofire.framework */; };
@@ -110,6 +111,7 @@
 
 /* Begin PBXFileReference section */
 		5657041D1C9878DF00B84DBE /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.txt; sourceTree = SOURCE_ROOT; };
+		565704251C987D4800B84DBE /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Documents; path = ../../../Documents; sourceTree = "<group>"; };
 		56B16A581C89EFD20012B4C8 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8B0DFAAA1C65082B00B0CDD5 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		8B5A41811C9329CB007CCED2 /* ResidentialRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidentialRequest.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				8BDCD4FD1C5FC16200418D16 /* Assets.xcassets */,
 				8BDCD4FF1C5FC16200418D16 /* LaunchScreen.storyboard */,
 				5657041D1C9878DF00B84DBE /* file.txt */,
+				565704251C987D4800B84DBE /* Documents */,
 				8BDCD5021C5FC16200418D16 /* Info.plist */,
 			);
 			path = goshen_historical_app_v1;
@@ -391,6 +394,7 @@
 				8BDCD4FE1C5FC16200418D16 /* Assets.xcassets in Resources */,
 				5657041E1C9878DF00B84DBE /* file.txt in Resources */,
 				8BDCD4FC1C5FC16200418D16 /* Main.storyboard in Resources */,
+				565704261C987D4800B84DBE /* Documents in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
