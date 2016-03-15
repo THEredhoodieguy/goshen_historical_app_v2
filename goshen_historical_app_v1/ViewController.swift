@@ -36,7 +36,7 @@ class ViewController: UIViewController {
                 
                 print(stuff_string)
                 
-                if (stuff_string.rangeOfString("404  Not Found") == nil) {
+                if (stuff_string.rangeOfString("404 Not Found") == nil) {
                     
                     print("Page 404'd")
                     

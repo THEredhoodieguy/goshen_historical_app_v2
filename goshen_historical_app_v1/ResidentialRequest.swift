@@ -12,63 +12,76 @@ import Foundation
 import Alamofire
 
 
-func getResidential(var arr: Array<Array<String>>, url_string: String) {
-	var stuff_string=""
-	
+func getResidential(url_string: String) -> Array<Array<String>> {
+	//Currently uses general read from file function, write_to_file() not yet implemented
+    
+    var stuff_string=""
+    
+    var arr = Array<Array<String>>()
 	
 	Alamofire.request(.GET, url_string)
 		.responseString { response in
 			stuff_string = response.result.value!
 			
-			if (stuff_string.rangeOfString("404  Not Found") != nil) {
+			if (stuff_string.rangeOfString("404  Not Found") == nil) {
 				//Use contingency string
-				//stuff_string = <CONTINGENCY STRING>
+                print("Page 404'd")
+                
+                //If get request does not return a valid page, read from the file
+                stuff_string = read_from_file()
 			}
-				values_array = stuff_string.characters.split { $0 == "\r\n"}.map(String.init)
+            else {
+                
+                print("Page didn't 404")
+                
+                //If get request does return a valid page, write the latest version of the page to file
+                write_to_file(stuff_string)
+            }
+				values_array = stuff_string.characters.split { $0 == "\n"}.map(String.init)
 			
 			for i in values_array {
 				arr.append(i.componentsSeparatedByString("|"))
 			}
 			
 	}
+    
+    return(arr)
 }
 
 
-func getBusiness(var arr: Array<Array<String>>, url_string: String) {
-	var stuff_string=""
-	
-	
-	Alamofire.request(.GET, url_string)
-		.responseString { response in
-			stuff_string = response.result.value!
-			
-			if (stuff_string.rangeOfString("404  Not Found") != nil) {
-				//Use contingency string
-				//stuff_string = <CONTINGENCY STRING>
-			}
-			values_array = stuff_string.characters.split { $0 == "\r\n"}.map(String.init)
-			
-			for i in values_array {
-				arr.append(i.componentsSeparatedByString("|"))
-			}
-			
-	}
+func getBusiness(url_string: String) -> Array<Array<String>> {
+    //DOES NOT HAVE BUSINESS SPECIFIC ADDRESS IMPLEMENTED
+    //PLEASE IMPLEMENT BEFORE USING
+    
+    var stuff_string=""
+    
+    var arr = Array<Array<String>>()
+    
+    Alamofire.request(.GET, url_string)
+        .responseString { response in
+            stuff_string = response.result.value!
+            
+            if (stuff_string.rangeOfString("404  Not Found") == nil) {
+                //Use contingency string
+                print("Page 404'd")
+                
+                //If get request does not return a valid page, read from the file
+                stuff_string = read_from_file()
+            }
+            else {
+                
+                print("Page didn't 404")
+                
+                //If get request does return a valid page, write the latest version of the page to file
+                write_to_file(stuff_string)
+            }
+            values_array = stuff_string.characters.split { $0 == "\n"}.map(String.init)
+            
+            for i in values_array {
+                arr.append(i.componentsSeparatedByString("|"))
+            }
+            
+    }
+    
+    return(arr)
 }
-
-
-
-/*Alamofire.request(.GET, url)
-	.responseString { response in
-		stuff_string = response.result.value!
-		values_array = stuff_string.characters.split { $0 == "\r\n"}.map(String.init)
-		for i in values_array {
-			big_array.append(i.componentsSeparatedByString("|"))
-		}
-		
-		//self.sampletext.text = big_array[3][4]
-		Alamofire.request(.GET, big_array[3][3]).response { (request, response, data, error) in
-			self.picture.image = UIImage(data: data!, scale:1)
-		}
-		
-		
-}*/
