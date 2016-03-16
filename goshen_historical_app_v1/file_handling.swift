@@ -17,12 +17,27 @@ func read_from_file() -> String {
     
     //String to use for now
     let destinationPath: String! = "/Users/matthewwp/Desktop/goshen_historical_app_v2/goshen_historical_app_v1/output_test.txt"
-    
-    
+	
     print(destinationPath)
     
     let filemgr = NSFileManager.defaultManager()
-    
+	
+	
+	
+	// We need just to get the documents folder url
+	let documentsUrl =  NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).first!
+	
+	// now lets get the directory contents (including folders)
+	do {
+		let directoryContents = try NSFileManager.defaultManager().contentsOfDirectoryAtURL(documentsUrl, includingPropertiesForKeys: nil, options: NSDirectoryEnumerationOptions())
+		print(directoryContents)
+		
+	} catch let error as NSError {
+		print(error.localizedDescription)
+	}
+	
+	
+	
     if filemgr.fileExistsAtPath(destinationPath) {
         print("File exists")
         do {

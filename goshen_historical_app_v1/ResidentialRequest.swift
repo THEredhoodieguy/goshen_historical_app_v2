@@ -23,7 +23,7 @@ func getResidential(url_string: String) -> Array<Array<String>> {
 		.responseString { response in
 			stuff_string = response.result.value!
 			
-			if (stuff_string.rangeOfString("404  Not Found") == nil) {
+			if (stuff_string.rangeOfString("404  Not Found") != nil) {
 				//Use contingency string
                 print("Page 404'd")
                 
@@ -61,7 +61,7 @@ func getBusiness(url_string: String) -> Array<Array<String>> {
         .responseString { response in
             stuff_string = response.result.value!
             
-            if (stuff_string.rangeOfString("404  Not Found") == nil) {
+            if (stuff_string.rangeOfString("404  Not Found") != nil) {
                 //Use contingency string
                 print("Page 404'd")
                 
