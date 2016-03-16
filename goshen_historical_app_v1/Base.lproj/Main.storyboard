@@ -644,7 +644,42 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uC5-ap-RiW">
                                 <rect key="frame" x="20" y="111" width="335" height="548"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">In 1983 the Goshen Historic Districtwas placed on the National Registerof Historic Places. Consisting of about45 city blocks, it is one of the largest inIndiana because it includes both theresidential and downtown commercialdistricts. It recognizes structures datingfrom c. 1847 in a district framed by PikeStreet to the north, the hydraulic canalto the west, Cottage Avenue to the eastand Plymouth Avenue to the south.Complete coverage of the district canbe found in the historic architecturalsurvey, Elkhart County Interim Report(2005), published by Indiana LandmarksFoundation and the Indiana Departmentof Natural Resources, available onlineand in print.Being listed in the National Register ofPublic Places protects historic buildingsonly if federal money is sought in order to change or demolish them. Otherprotection requires local legislation.In 2007 Goshen city governmentestablished legal guidelines to protectthe historic commercial structures foundin the area framed by Pike Street onthe north, Madison Street on the south,the east side of South Fifth Street andthe west side of South Third Street. Nolocal legislation has been passed forthe historic residential district. Datingfrom the 1870s, most of the upperfacades of the oldest storefronts reflectthe Italianate style, with brackets underoverhanging eaves and classical andother decorations.</mutableString>
+                                <string key="text">In 1983 the Goshen Historic District
+was placed on the National Register
+of Historic Places. Consisting of about
+45 city blocks, it is one of the largest in
+Indiana because it includes both the
+residential and downtown commercial
+districts. It recognizes structures dating
+from c. 1847 in a district framed by Pike
+Street to the north, the hydraulic canal
+to the west, Cottage Avenue to the east
+and Plymouth Avenue to the south.
+Complete coverage of the district can
+be found in the historic architectural
+survey, Elkhart County Interim Report
+(2005), published by Indiana Landmarks
+Foundation and the Indiana Department
+of Natural Resources, available online
+and in print.
+Being listed in the National Register of
+Public Places protects historic buildings
+only if federal money is sought in order to change or demolish them. Other
+protection requires local legislation.
+In 2007 Goshen city government
+established legal guidelines to protect
+the historic commercial structures found
+in the area framed by Pike Street on
+the north, Madison Street on the south,
+the east side of South Fifth Street and
+the west side of South Third Street. No
+local legislation has been passed for
+the historic residential district. Dating
+from the 1870s, most of the upper
+facades of the oldest storefronts reflect
+the Italianate style, with brackets under
+overhanging eaves and classical and
+other decorations.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -941,7 +976,11 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jAL-pg-U26">
                                 <rect key="frame" x="43" y="179" width="312" height="246"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">124 South Main StreetGoshen, IN 46526Ph: 574-326-7392Email: museum@goshenhistorical.orgWWW.GOSHENHISTORICAL.ORG</string>
+                                <string key="text">124 South Main Street
+Goshen, IN 46526
+Ph: 574-326-7392
+Email: museum@goshenhistorical.org
+WWW.GOSHENHISTORICAL.ORG</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -973,16 +1012,16 @@
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ee3-PQ-ekq"/>
-        <segue reference="Yc9-ig-sS9"/>
-        <segue reference="kmx-O0-5XA"/>
+        <segue reference="lfY-B6-J3m"/>
+        <segue reference="KTZ-8G-rpi"/>
+        <segue reference="G6Z-Bg-eXg"/>
+        <segue reference="73S-05-GQh"/>
+        <segue reference="zx5-6g-DCP"/>
         <segue reference="6OO-8Q-gSW"/>
         <segue reference="USe-xk-0AB"/>
         <segue reference="dzd-4w-Caz"/>
-        <segue reference="lfY-B6-J3m"/>
-        <segue reference="KTZ-8G-rpi"/>
-        <segue reference="73S-05-GQh"/>
-        <segue reference="zx5-6g-DCP"/>
-        <segue reference="G6Z-Bg-eXg"/>
+        <segue reference="7AF-gQ-Yv5"/>
+        <segue reference="ee3-PQ-ekq"/>
+        <segue reference="Yc9-ig-sS9"/>
     </inferredMetricsTieBreakers>
 </document>
