@@ -34,6 +34,12 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         navigationItem.title = "Home"
     }
+    
+    @IBAction func WebLink(sender: AnyObject) {
+        if let url = NSURL(string: "http://www.goshenhistorical.org/") {
+            UIApplication.sharedApplication().openURL(url)
+        }
+    }
 
 
 }
