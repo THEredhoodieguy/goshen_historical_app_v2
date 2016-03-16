@@ -284,23 +284,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ge-dV-jxs">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ge-dV-jxs">
                                 <rect key="frame" x="60" y="11" width="254" height="30"/>
                                 <state key="normal" title="Content View "/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqz-mO-Z1P">
-                                <rect key="frame" x="136" y="235" width="103" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqz-mO-Z1P">
+                                <rect key="frame" x="89" y="235" width="103" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="WxP-tG-gCf"/>
+                                </constraints>
                                 <state key="normal" title="Overlay"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5K-gj-lNq">
-                                <rect key="frame" x="143" y="340" width="86" height="30"/>
-                                <state key="normal" title="Audio"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DbS-0l-A9c">
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FPc-3J-G0Q">
+                                <rect key="frame" x="143" y="340" width="103" height="30"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fRt-iU-vc2">
+                                        <rect key="frame" x="0.0" y="0.0" width="103" height="30"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="trj-8E-UsL">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5K-gj-lNq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="103" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="103" id="F0H-tS-dRO"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Audio"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DbS-0l-A9c">
                                 <rect key="frame" x="74" y="86" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="vYO-Yi-aq0"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DbS-0l-A9c" firstAttribute="leading" secondItem="Cfa-Aj-P7o" secondAttribute="leadingMargin" constant="54" id="37b-dM-odI"/>
+                            <constraint firstItem="Dqz-mO-Z1P" firstAttribute="top" secondItem="DbS-0l-A9c" secondAttribute="bottom" constant="21" id="70v-gr-4ai"/>
+                            <constraint firstItem="Dqz-mO-Z1P" firstAttribute="centerX" secondItem="0ge-dV-jxs" secondAttribute="centerX" id="Qcv-oy-ZY1"/>
+                            <constraint firstItem="0ge-dV-jxs" firstAttribute="leading" secondItem="Cfa-Aj-P7o" secondAttribute="leadingMargin" constant="40" id="ZQr-LE-eOh"/>
+                            <constraint firstItem="H5k-JR-S0C" firstAttribute="top" secondItem="0ge-dV-jxs" secondAttribute="bottom" constant="23" id="lWY-XK-bfe"/>
+                            <constraint firstItem="DbS-0l-A9c" firstAttribute="top" secondItem="H5k-JR-S0C" secondAttribute="bottom" constant="22" id="rBn-Dw-YBm"/>
+                            <constraint firstItem="0ge-dV-jxs" firstAttribute="trailing" secondItem="DbS-0l-A9c" secondAttribute="trailing" id="zL9-9j-POD"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Site" id="LU5-1T-omx">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Div-sT-mvL"/>
