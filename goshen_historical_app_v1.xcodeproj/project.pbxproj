@@ -11,6 +11,7 @@
 		565704261C987D4800B84DBE /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = 565704251C987D4800B84DBE /* Documents */; };
 		56B16A591C89EFD20012B4C8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B16A581C89EFD20012B4C8 /* SecondViewController.swift */; };
 		8B5A41821C9329CB007CCED2 /* ResidentialRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A41811C9329CB007CCED2 /* ResidentialRequest.swift */; };
+		8B8DBD6A1C9C5664009981BE /* beginning_text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DBD691C9C5664009981BE /* beginning_text.swift */; };
 		8B9AD94D1C98828D007234CF /* output_test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B9AD94C1C98828D007234CF /* output_test.txt */; };
 		8B9AD9551C9889E8007234CF /* file_handling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9AD9541C9889E8007234CF /* file_handling.swift */; };
 		8BD3DD791C739FC600AFEAAE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0DFAB51C65082C00B0CDD5 /* Alamofire.framework */; };
@@ -117,6 +118,7 @@
 		56B16A581C89EFD20012B4C8 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8B0DFAAA1C65082B00B0CDD5 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		8B5A41811C9329CB007CCED2 /* ResidentialRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidentialRequest.swift; sourceTree = "<group>"; };
+		8B8DBD691C9C5664009981BE /* beginning_text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beginning_text.swift; sourceTree = "<group>"; };
 		8B9AD94C1C98828D007234CF /* output_test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = output_test.txt; sourceTree = "<group>"; };
 		8B9AD9541C9889E8007234CF /* file_handling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = file_handling.swift; sourceTree = "<group>"; };
 		8BDCD4F31C5FC16200418D16 /* goshen_historical_app_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goshen_historical_app_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +202,7 @@
 			children = (
 				8BDCD4F61C5FC16200418D16 /* AppDelegate.swift */,
 				8BDCD4F81C5FC16200418D16 /* ViewController.swift */,
+				8B8DBD691C9C5664009981BE /* beginning_text.swift */,
 				8B9AD9541C9889E8007234CF /* file_handling.swift */,
 				8B5A41811C9329CB007CCED2 /* ResidentialRequest.swift */,
 				56B16A581C89EFD20012B4C8 /* SecondViewController.swift */,
@@ -428,6 +431,7 @@
 			files = (
 				8B5A41821C9329CB007CCED2 /* ResidentialRequest.swift in Sources */,
 				8B9AD9551C9889E8007234CF /* file_handling.swift in Sources */,
+				8B8DBD6A1C9C5664009981BE /* beginning_text.swift in Sources */,
 				56B16A591C89EFD20012B4C8 /* SecondViewController.swift in Sources */,
 				8BDCD4F91C5FC16200418D16 /* ViewController.swift in Sources */,
 				8BDCD4F71C5FC16200418D16 /* AppDelegate.swift in Sources */,

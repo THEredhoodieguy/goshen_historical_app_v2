@@ -39,9 +39,17 @@ class ViewController: UIViewController {
                 if (stuff_string.rangeOfString("404 Not Found") != nil) {
                     
                     print("Page 404'd")
-                    
-                    //If get request does not return a valid page, read from the file
-                    stuff_string = read_from_file()
+					
+					//If get request does not return a valid page, read from the file
+					
+					if(file_exists()) {
+						stuff_string = read_from_file()
+					}
+					else {
+						write_to_file(beginning_text_string)
+						stuff_string = beginning_text_string
+					}
+					
                 }
                 else {
                     
@@ -50,7 +58,9 @@ class ViewController: UIViewController {
                     //If get request does return a valid page, write the latest version of the page to file
                     write_to_file(stuff_string)
                 }
-                
+				
+				write_to_file(stuff_string)
+				
                 values_array = stuff_string.characters.split { $0 == "\n"}.map(String.init)
                 
                 for i in values_array {

@@ -13,10 +13,10 @@ func read_from_file() -> String {
     
     
     //Seems to be correct for compiled apps, but doesn't work in the simulator, leaving out for now
-    //let destinationPath: String! = NSHomeDirectory() + "output_test.txt"
+    let destinationPath: String! = NSHomeDirectory() + "output_test.txt"
     
     //String to use for now
-    let destinationPath: String! = "/Users/matthewwp/Desktop/goshen_historical_app_v2/goshen_historical_app_v1/output_test.txt"
+    //let destinationPath: String! = "/Users/matthewwp/Desktop/goshen_historical_app_v2/goshen_historical_app_v1/output_test.txt"
 	
     print(destinationPath)
     
@@ -52,11 +52,32 @@ func read_from_file() -> String {
     else {
         print("File does not exist")
     }
-    
+	print("")
+	print(output_str)
+	print("")
     return(output_str)
     
 }
 
 func write_to_file(input_str: String) -> Void {
-    //TO DO
+	let text = input_str
+	
+	let path = NSHomeDirectory() + "text.txt"
+		
+	//writing
+	do {
+		try text.writeToFile(path, atomically: false, encoding: NSUTF8StringEncoding)
+	}
+	catch {
+		/* error handling here */
+	}
+}
+
+func file_exists() -> Bool {
+	let filemgr = NSFileManager.defaultManager()
+	let destinationPath: String! = NSHomeDirectory() + "text.txt"
+	
+	print("A file exists here")
+	
+	return(filemgr.fileExistsAtPath(destinationPath))
 }
