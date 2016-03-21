@@ -306,13 +306,18 @@
                                     <segue destination="bT9-Zn-3eL" kind="show" id="oGt-JF-7pC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbV-4h-1me">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbV-4h-1me">
                                 <rect key="frame" x="106" y="378" width="113" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="113" id="xu0-mB-auS"/>
+                                </constraints>
                                 <state key="normal" title="Residential"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="zQg-ND-hhW" firstAttribute="top" secondItem="fbV-4h-1me" secondAttribute="bottom" constant="192" id="0ly-IF-Dl6"/>
+                            <constraint firstItem="fbV-4h-1me" firstAttribute="leading" secondItem="SWr-qt-Bll" secondAttribute="leadingMargin" constant="86" id="Vuy-g9-qDG"/>
                             <constraint firstItem="zQg-ND-hhW" firstAttribute="top" secondItem="6EZ-EW-lOf" secondAttribute="bottom" constant="15" id="p8I-Pr-a8W"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6EZ-EW-lOf" secondAttribute="trailing" constant="15" id="yJb-tm-8R2"/>
                         </constraints>
