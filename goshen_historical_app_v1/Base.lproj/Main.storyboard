@@ -1355,16 +1355,20 @@ WWW.GOSHENHISTORICAL.ORG</string>
         <image name="Image-9" width="465" height="292"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Yc9-ig-sS9"/>
+        <segue reference="ee3-PQ-ekq"/>
+        <segue reference="G3A-Ye-xzh"/>
         <segue reference="lfY-B6-J3m"/>
         <segue reference="KTZ-8G-rpi"/>
-        <segue reference="G6Z-Bg-eXg"/>
+        <segue reference="L2l-DD-JV1"/>
+        <segue reference="voh-4t-SoP"/>
+        <segue reference="qQv-Y3-JiF"/>
         <segue reference="73S-05-GQh"/>
         <segue reference="zx5-6g-DCP"/>
+        <segue reference="G6Z-Bg-eXg"/>
         <segue reference="6OO-8Q-gSW"/>
         <segue reference="USe-xk-0AB"/>
         <segue reference="dzd-4w-Caz"/>
         <segue reference="7AF-gQ-Yv5"/>
-        <segue reference="ee3-PQ-ekq"/>
-        <segue reference="Yc9-ig-sS9"/>
     </inferredMetricsTieBreakers>
 </document>
