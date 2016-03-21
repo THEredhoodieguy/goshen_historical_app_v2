@@ -14,9 +14,6 @@
 		8BDCD5011C5FC16200418D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDCD4FF1C5FC16200418D16 /* LaunchScreen.storyboard */; };
 		8BDCD50C1C5FC16200418D16 /* goshen_historical_app_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCD50B1C5FC16200418D16 /* goshen_historical_app_v1Tests.swift */; };
 		8BDCD5171C5FC16200418D16 /* goshen_historical_app_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCD5161C5FC16200418D16 /* goshen_historical_app_v1UITests.swift */; };
-		E1C2A3541C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
-		E1C2A3551C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
-		E1C2A3561C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
