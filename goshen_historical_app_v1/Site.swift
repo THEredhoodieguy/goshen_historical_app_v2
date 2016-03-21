@@ -7,42 +7,61 @@
 //
 
 import UIKit
+import MapKit
 
-class Site {
-    // MARK: Properties
+class Site: NSObject, MKAnnotation{
     
-    var name: String
-    var type: Int
-    var photo: UIImage?
-    var shortText: String
-    var longText: String
+    var title: String?
+    let locationName: String
+    let discipline: String
+    let coordinate: CLLocationCoordinate2D
     
-    // MARK: Types
-    
-    struct PropertyKey {
-        static let nameKey = "name"
-        static let typeKey = "type"
-        static let photoKey = "photo"
-        static let shortTextKey = "shortText"
-        static let longTextKey = "longText"
-    }
-    
-    // MARK: Initialization
-    
-    init?(name: String, type: Int, photo: UIImage?, shortText: String, longText: String) {
-        // Initialize stored properties.
-        self.name = name
-        self.type = type
-        self.photo = photo
-        self.shortText = shortText
-        self.longText = longText
+    init(title: String, locationName: String, discipline: String, coordinate: CLLocationCoordinate2D) {
+        self.title = title
+        self.locationName = locationName
+        self.discipline = discipline
+        self.coordinate = coordinate
         
-        // Initialization should fail if there is no name or if the rating is negative.
-        if name.isEmpty || shortText.isEmpty || longText.isEmpty {
-            return nil
-        }
+        super.init()
     }
-    // MARK: NSCoding
+    
+    var subtitle: String? {
+        return locationName
+    }
+//    // MARK: Properties
+//    
+//    var name: String
+//    var type: Int
+//    var photo: UIImage?
+//    var shortText: String
+//    var longText: String
+//    
+//    // MARK: Types
+//    
+//    struct PropertyKey {
+//        static let nameKey = "name"
+//        static let typeKey = "type"
+//        static let photoKey = "photo"
+//        static let shortTextKey = "shortText"
+//        static let longTextKey = "longText"
+//    }
+//    
+//    // MARK: Initialization
+//    
+//    init?(name: String, type: Int, photo: UIImage?, shortText: String, longText: String) {
+//        // Initialize stored properties.
+//        self.name = name
+//        self.type = type
+//        self.photo = photo
+//        self.shortText = shortText
+//        self.longText = longText
+//        
+//        // Initialization should fail if there is no name or if the rating is negative.
+//        if name.isEmpty || shortText.isEmpty || longText.isEmpty {
+//            return nil
+//        }
+//    }
+//    // MARK: NSCoding
     
     
     

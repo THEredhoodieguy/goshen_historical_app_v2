@@ -53,14 +53,23 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // set initial location in Honolulu
-        let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
+        // set initial location in Goshen
+        let initialLocation = CLLocation(latitude: 41.585102, longitude: -85.834294)
+        //41.585102, -85.834294
         
         centerMapOnLocation(initialLocation)
         
+        // show sites on map
+        let artwork = Site(title: "The Spohn Building",
+            locationName: "109 E Clinton St",
+            discipline: "Building",
+            coordinate: CLLocationCoordinate2D(latitude: 41.588001, longitude: -85.834014))
+        
+        mapView.addAnnotation(artwork)
+        
     }
     
-    let regionRadius: CLLocationDistance = 1000
+    let regionRadius: CLLocationDistance = 500
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
             regionRadius * 2.0, regionRadius * 2.0)
