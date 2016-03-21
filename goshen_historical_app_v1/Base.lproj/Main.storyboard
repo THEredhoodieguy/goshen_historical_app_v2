@@ -3,7 +3,9 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -95,6 +97,9 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="QQG-G4-Ipv">
                                 <rect key="frame" x="32" y="446" width="307" height="100"/>
                                 <color key="backgroundColor" red="0.47058823529411764" green="0.062745098039215685" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QQG-G4-Ipv" secondAttribute="height" multiplier="307:100" id="jSG-0y-8Fb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="70" maxY="0.0"/>
                                 <state key="normal" title="The Residential District">
@@ -109,9 +114,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="              Back"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bXo-ES-KvI">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bXo-ES-KvI">
                                 <rect key="frame" x="33" y="301" width="306" height="100"/>
                                 <color key="backgroundColor" red="0.47058823529411764" green="0.062745098039215685" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bXo-ES-KvI" secondAttribute="height" multiplier="153:50" id="vcr-lD-y69"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="25" maxY="0.0"/>
                                 <state key="normal" title="The Downtown Commercial District">
@@ -123,22 +131,25 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Which district would you like to tour?" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZU-DG-geS">
                                 <rect key="frame" x="32" y="184" width="307" height="95"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mZU-DG-geS" secondAttribute="height" multiplier="307:95" id="g8Q-ZK-h0F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="QQG-G4-Ipv" secondAttribute="trailing" constant="10" id="3mp-rg-2hW"/>
-                            <constraint firstItem="mZU-DG-geS" firstAttribute="top" secondItem="bpl-Gp-YNS" secondAttribute="bottom" constant="45" id="9Cx-cg-1tw"/>
-                            <constraint firstItem="ASr-0C-bWm" firstAttribute="top" secondItem="QQG-G4-Ipv" secondAttribute="bottom" constant="45" id="E54-VJ-6Sv"/>
-                            <constraint firstItem="bXo-ES-KvI" firstAttribute="height" secondItem="QQG-G4-Ipv" secondAttribute="height" id="Krs-AX-zO2"/>
-                            <constraint firstItem="bXo-ES-KvI" firstAttribute="leading" secondItem="Rh2-CH-g9P" secondAttribute="leadingMargin" constant="10" id="MVR-Ek-Cly"/>
-                            <constraint firstItem="mZU-DG-geS" firstAttribute="leading" secondItem="Rh2-CH-g9P" secondAttribute="leadingMargin" constant="10" id="dvt-bh-VRi"/>
-                            <constraint firstItem="QQG-G4-Ipv" firstAttribute="leading" secondItem="Rh2-CH-g9P" secondAttribute="leadingMargin" constant="10" id="kjK-Yb-uDb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mZU-DG-geS" secondAttribute="trailing" constant="10" id="sIB-eM-Gm6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="bXo-ES-KvI" secondAttribute="trailing" constant="10" id="vMx-9C-slK"/>
+                            <constraint firstItem="mZU-DG-geS" firstAttribute="leading" secondItem="Rh2-CH-g9P" secondAttribute="centerXWithinMargins" multiplier="0.25" id="DAJ-lS-U6r"/>
+                            <constraint firstItem="QQG-G4-Ipv" firstAttribute="trailing" secondItem="Rh2-CH-g9P" secondAttribute="centerXWithinMargins" multiplier="1.75" id="Gc3-16-mTv"/>
+                            <constraint firstItem="bXo-ES-KvI" firstAttribute="trailing" secondItem="Rh2-CH-g9P" secondAttribute="centerXWithinMargins" multiplier="1.75" id="LbQ-fk-drd"/>
+                            <constraint firstItem="bXo-ES-KvI" firstAttribute="leading" secondItem="Rh2-CH-g9P" secondAttribute="centerXWithinMargins" multiplier="0.25" id="SK7-HH-xTP"/>
+                            <constraint firstItem="bXo-ES-KvI" firstAttribute="top" secondItem="bpl-Gp-YNS" secondAttribute="bottom" constant="150" id="iHp-V3-HZi"/>
+                            <constraint firstItem="mZU-DG-geS" firstAttribute="top" secondItem="bpl-Gp-YNS" secondAttribute="bottom" constant="50" id="lxc-GP-oC7"/>
+                            <constraint firstItem="QQG-G4-Ipv" firstAttribute="top" secondItem="bpl-Gp-YNS" secondAttribute="bottom" constant="250" id="qp8-1w-XF6"/>
+                            <constraint firstItem="QQG-G4-Ipv" firstAttribute="leading" secondItem="Rh2-CH-g9P" secondAttribute="centerXWithinMargins" multiplier="0.25" id="qut-iC-GVT"/>
+                            <constraint firstItem="mZU-DG-geS" firstAttribute="trailing" secondItem="Rh2-CH-g9P" secondAttribute="centerXWithinMargins" multiplier="1.75" id="vBD-GW-3Rv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Choose District" id="i6I-hf-8Ij"/>
