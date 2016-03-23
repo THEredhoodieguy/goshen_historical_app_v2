@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7D1A9E1CA2EBDE00CA5348 /* ResidentialRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D1A9D1CA2EBDE00CA5348 /* ResidentialRequest.swift */; };
+		8B7D1AA01CA2EBE400CA5348 /* file_handling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D1A9F1CA2EBE400CA5348 /* file_handling.swift */; };
+		8B7D1AA21CA2EBE900CA5348 /* beginning_text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D1AA11CA2EBE900CA5348 /* beginning_text.swift */; };
 		8BDCD4F71C5FC16200418D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCD4F61C5FC16200418D16 /* AppDelegate.swift */; };
 		8BDCD4F91C5FC16200418D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCD4F81C5FC16200418D16 /* ViewController.swift */; };
 		8BDCD4FC1C5FC16200418D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDCD4FA1C5FC16200418D16 /* Main.storyboard */; };
@@ -50,6 +53,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B7D1A9D1CA2EBDE00CA5348 /* ResidentialRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidentialRequest.swift; sourceTree = "<group>"; };
+		8B7D1A9F1CA2EBE400CA5348 /* file_handling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = file_handling.swift; sourceTree = "<group>"; };
+		8B7D1AA11CA2EBE900CA5348 /* beginning_text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beginning_text.swift; sourceTree = "<group>"; };
 		8BDCD4F31C5FC16200418D16 /* goshen_historical_app_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goshen_historical_app_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDCD4F61C5FC16200418D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BDCD4F81C5FC16200418D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 				8BDCD4FD1C5FC16200418D16 /* Assets.xcassets */,
 				8BDCD4FF1C5FC16200418D16 /* LaunchScreen.storyboard */,
 				8BDCD5021C5FC16200418D16 /* Info.plist */,
+				8B7D1A9D1CA2EBDE00CA5348 /* ResidentialRequest.swift */,
+				8B7D1A9F1CA2EBE400CA5348 /* file_handling.swift */,
+				8B7D1AA11CA2EBE900CA5348 /* beginning_text.swift */,
 			);
 			path = goshen_historical_app_v1;
 			sourceTree = "<group>";
@@ -275,6 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7D1A9E1CA2EBDE00CA5348 /* ResidentialRequest.swift in Sources */,
+				8B7D1AA01CA2EBE400CA5348 /* file_handling.swift in Sources */,
+				8B7D1AA21CA2EBE900CA5348 /* beginning_text.swift in Sources */,
 				8BDCD4F91C5FC16200418D16 /* ViewController.swift in Sources */,
 				E1C2A3541C8DE4980008278B /* Site.swift in Sources */,
 				8BDCD4F71C5FC16200418D16 /* AppDelegate.swift in Sources */,
