@@ -45,7 +45,7 @@ class ViewController: UIViewController {
 
 }
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, MKMapViewDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
     
@@ -58,6 +58,8 @@ class MapViewController: UIViewController {
         //41.585102, -85.834294
         
         centerMapOnLocation(initialLocation)
+        
+        mapView.delegate = self
         
         // show sites on map
         let artwork = Site(title: "The Spohn Building",
