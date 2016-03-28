@@ -37,7 +37,7 @@ func getResidential(url_string: String) -> Array<Array<String>> {
                 //If get request does return a valid page, write the latest version of the page to file
                 write_to_file(stuff_string)
             }
-				values_array = stuff_string.characters.split { $0 == "\n"}.map(String.init)
+				var values_array = stuff_string.characters.split { $0 == "\n"}.map(String.init)
 			
 			for i in values_array {
 				arr.append(i.componentsSeparatedByString("|"))
@@ -75,7 +75,7 @@ func getBusiness(url_string: String) -> Array<Array<String>> {
                 //If get request does return a valid page, write the latest version of the page to file
                 write_to_file(stuff_string)
             }
-            values_array = stuff_string.characters.split { $0 == "\n"}.map(String.init)
+            let values_array = stuff_string.characters.split { $0 == "\n"}.map(String.init)
             
             for i in values_array {
                 arr.append(i.componentsSeparatedByString("|"))
