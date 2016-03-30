@@ -14,6 +14,9 @@ var big_array = Array<Array<String>>()
 
 var values_array = []
 
+var residential_array = Array<Array<String>>()
+var business_array = Array<Array<String>>()
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -70,7 +73,23 @@ class ViewController: UIViewController {
 					big_array.append(i.componentsSeparatedByString("|"))
 				}
 				
-				print(big_array)
+				
+				//sort items in big_array out into either residential or business arrays
+				
+				for i in big_array {
+					if i[0] == "r" {
+						residential_array.append(i)
+					}
+					else if i[0] == "Type (Comm/Resid)" {
+						//nothing
+					}
+					else {
+						business_array.append(i)
+					}
+				}
+				
+				print(residential_array)
+				print(business_array)
 
 		}
 	}
