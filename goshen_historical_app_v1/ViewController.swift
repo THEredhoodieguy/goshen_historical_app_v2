@@ -9,6 +9,8 @@
 import UIKit
 import MapKit
 
+var siteArray:[Site] = [Site]()
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -62,12 +64,13 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         mapView.delegate = self
         
         // show sites on map
-        let artwork = Site(title: "The Spohn Building",
+        let site1 = Site(title: "The Spohn Building",
             locationName: "109 E Clinton St",
             discipline: "Building",
             coordinate: CLLocationCoordinate2D(latitude: 41.588001, longitude: -85.834014))
         
-        mapView.addAnnotation(artwork)
+        mapView.addAnnotation(site1)
+        siteArray.append(site1)
         
     }
     
@@ -77,5 +80,36 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             regionRadius * 2.0, regionRadius * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)
     }
+}
+
+class ListViewController: UITableViewController {
+    
+//    override func viewDidLoad() {
+//    super.viewDidLoad()
+//            
+//        for site: Site in siteArray {
+//            site.locationName
+//        }
+//            
+//    }
+//    
+//    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+//        return 1
+//    }
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return siteArray.count
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        // 3
+        let cell = tableView.dequeueReusableCellWithIdentifier("customcell", forIndexPath: indexPath) as! UITableViewCell
+        
+//        cell.textLabel!.text = siteArray[indexPath.item]
+//        cell.textLabel!.text = "test"
+        return cell
+    }
+    
+    
 }
 

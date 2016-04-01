@@ -166,13 +166,13 @@
         <!--Sites-->
         <scene sceneID="3y5-Pn-0ZH">
             <objects>
-                <tableViewController id="bT9-Zn-3eL" sceneMemberID="viewController">
+                <tableViewController id="bT9-Zn-3eL" customClass="ListViewController" customModule="goshen_historical_app_v1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="78" sectionHeaderHeight="28" sectionFooterHeight="28" id="0ud-LT-HVD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="78" id="apN-zj-IvD">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customcell" rowHeight="78" id="apN-zj-IvD">
                                 <rect key="frame" x="0.0" y="92" width="600" height="78"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="apN-zj-IvD" id="6bD-cq-phF">
@@ -196,7 +196,7 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="bT9-Zn-3eL" id="bSg-Vn-mqK"/>
+                            <outlet property="dataSource" destination="bT9-Zn-3eL" id="8g2-x5-Vbg"/>
                             <outlet property="delegate" destination="bT9-Zn-3eL" id="eKb-bA-EDg"/>
                         </connections>
                     </tableView>
