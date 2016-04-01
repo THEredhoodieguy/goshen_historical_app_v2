@@ -24,9 +24,9 @@
                                 <rect key="frame" x="19" y="-1" width="562" height="602"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ey-sk-k5M">
-                                <rect key="frame" x="164" y="514" width="272" height="36"/>
+                                <rect key="frame" x="164" y="514" width="272" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Contact">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -41,7 +41,7 @@
                                     <constraint firstAttribute="width" constant="272" id="cVt-Ac-EL4"/>
                                     <constraint firstAttribute="height" constant="45" id="oyn-GL-3SA"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Choose a Tour ">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -55,7 +55,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="ms9-JW-56M"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Quick History">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -72,8 +72,10 @@
                             <constraint firstAttribute="bottomMargin" secondItem="9cZ-Zg-wwD" secondAttribute="bottom" constant="-1" id="IHc-Pe-tsp"/>
                             <constraint firstItem="7Ey-sk-k5M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LNX-bQ-Z2I"/>
                             <constraint firstItem="9cZ-Zg-wwD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-1" id="Lbl-DX-GwM"/>
+                            <constraint firstItem="7Ey-sk-k5M" firstAttribute="height" secondItem="yBI-GS-oXf" secondAttribute="height" id="PYm-IS-7uC"/>
                             <constraint firstItem="yBI-GS-oXf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pfh-7G-ZTY"/>
                             <constraint firstItem="Rvl-Ll-jB6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="375" id="WxP-Ey-db2"/>
+                            <constraint firstItem="Rvl-Ll-jB6" firstAttribute="height" secondItem="yBI-GS-oXf" secondAttribute="height" id="dBH-fq-7L3"/>
                             <constraint firstItem="7Ey-sk-k5M" firstAttribute="width" secondItem="yBI-GS-oXf" secondAttribute="width" id="fK3-Fl-AfU"/>
                             <constraint firstItem="yBI-GS-oXf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="300" id="jS9-4D-Wj8"/>
                             <constraint firstItem="Rvl-Ll-jB6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lDD-RH-YSH"/>
@@ -179,8 +181,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="77"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aic-Ez-UlF">
-                                            <rect key="frame" x="108" y="28" width="42" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Goshen Courthouse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aic-Ez-UlF">
+                                            <rect key="frame" x="108" y="28" width="275" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -223,13 +225,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6EZ-EW-lOf">
-                                <rect key="frame" x="440" y="550" width="120" height="30"/>
+                                <rect key="frame" x="385" y="550" width="175" height="30"/>
                                 <color key="backgroundColor" red="0.47058823529411764" green="0.062745098039215685" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="94" id="mEG-Z3-nT3"/>
+                                    <constraint firstAttribute="height" constant="40" id="DWu-mW-Q2p"/>
+                                    <constraint firstAttribute="width" secondItem="6EZ-EW-lOf" secondAttribute="height" multiplier="35:6" id="QiF-XZ-Xxh"/>
+                                    <constraint firstAttribute="width" constant="150" id="mEG-Z3-nT3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Show in List ">
+                                <state key="normal" title="   Show in List   ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -270,23 +274,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ge-dV-jxs">
-                                <rect key="frame" x="60" y="11" width="254" height="30"/>
-                                <state key="normal" title="Content View "/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqz-mO-Z1P">
-                                <rect key="frame" x="136" y="235" width="103" height="30"/>
-                                <state key="normal" title="Overlay"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DbS-0l-A9c">
-                                <rect key="frame" x="67" y="77" width="240" height="128"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5K-gj-lNq">
-                                <rect key="frame" x="143" y="340" width="86" height="30"/>
-                                <state key="normal" title="Audio"/>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="     The Goshen Courthouse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ut-I2-QcK">
+                                <rect key="frame" x="115" y="372" width="358" height="40"/>
+                                <color key="backgroundColor" red="0.47058823529411764" green="0.062745098039215685" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="58t-pW-x5w">
+                                <rect key="frame" x="115" y="430" width="358" height="126"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="umL-17-BNO">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="118"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh arcu. Nulla tincidunt venenatis dui, sed pulvinar lorem accumsan in. Etiam iaculis enim vitae viverra vulputate. Praesent consectetur non nunc in placerat. Aliquam ut ligula pretium, tincidunt risus sit amet, blandit est. Etiam at consequat ante. Nam vel dignissim tellus, eu iaculis risus. Curabitur pellentesque sem non tincidunt accumsan. Donec eget nulla sed mi mollis varius. Donec faucibus facilisis sapien in luctus. Integer vel purus dui. Nunc varius consequat enim sit amet consectetur.
+
+Praesent iaculis, justo at elementum scelerisque, ipsum leo iaculis purus, eget varius velit eros nec arcu. Nullam magna nunc, feugiat eu finibus non, varius ut ligula. Aliquam aliquam eu risus at convallis. Cras posuere semper accumsan. Nunc ipsum lacus, consequat ut purus non, tristique vulputate orci. Nulla id orci sit amet ipsum malesuada pulvinar. Sed fermentum efficitur mollis. Fusce varius nisl nunc, vitae rhoncus enim aliquam et. Sed massa felis, iaculis id libero sit amet, hendrerit vulputate arcu. Phasellus suscipit libero a diam tristique vulputate. Fusce malesuada lacus et iaculis tincidunt. In malesuada porttitor blandit. Aenean vulputate metus sit amet justo sodales dictum quis at nulla. Sed eu nisl consectetur, dapibus odio sit amet, rutrum lorem.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus cursus mauris, pulvinar ornare velit cursus ut. Vivamus egestas metus ut odio hendrerit, non scelerisque felis vulputate. Quisque fringilla volutpat mauris vitae suscipit. Phasellus imperdiet augue purus, eget egestas felis porta sed. Proin mollis nisl urna, aliquam lacinia risus condimentum sit amet. Curabitur facilisis, tortor a interdum elementum, velit ante aliquet enim, vitae finibus sapien turpis vitae ante. Phasellus aliquam iaculis risus, eget dapibus ante convallis sed. Cras tellus turpis, sodales ut sagittis et, interdum id lectus. Ut placerat vel enim semper malesuada. Sed vulputate, ligula eu vestibulum commodo, arcu tortor rutrum massa, id sodales magna lectus et velit. Etiam at sodales nisi. Duis non tincidunt turpis, eu faucibus purus.
+
+Quisque consectetur urna ligula, eget consectetur velit malesuada ac. Praesent quis rutrum diam, a semper dolor. Proin nec orci risus. Pellentesque quis sollicitudin nunc. Ut risus urna, euismod eu tristique vel, condimentum id erat. Pellentesque lacus enim, dapibus in laoreet ut, feugiat a neque. Nunc convallis faucibus risus quis ultricies. Suspendisse non sollicitudin velit. Donec eu augue erat. Integer sed vestibulum lacus, sit amet tincidunt orci.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Ut-I2-QcK" firstAttribute="centerX" secondItem="Cfa-Aj-P7o" secondAttribute="centerX" id="1ir-2n-CzA"/>
+                            <constraint firstItem="3Ut-I2-QcK" firstAttribute="leading" secondItem="Cfa-Aj-P7o" secondAttribute="leadingMargin" constant="-5" id="8fx-w8-axX"/>
+                            <constraint firstItem="umL-17-BNO" firstAttribute="top" secondItem="3Ut-I2-QcK" secondAttribute="bottom" constant="10" id="LDc-JQ-gzP"/>
+                            <constraint firstItem="58t-pW-x5w" firstAttribute="centerX" secondItem="Cfa-Aj-P7o" secondAttribute="centerX" id="SY4-ga-IaF"/>
+                            <constraint firstItem="umL-17-BNO" firstAttribute="top" secondItem="H5k-JR-S0C" secondAttribute="bottom" constant="400" id="c8A-Vj-LEh"/>
+                            <constraint firstItem="GoR-yi-nQh" firstAttribute="top" secondItem="umL-17-BNO" secondAttribute="bottom" constant="10" id="egv-Qa-BwU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Ut-I2-QcK" secondAttribute="trailing" constant="-5" id="rag-o6-dyb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Site Detail" id="LU5-1T-omx"/>
                 </viewController>
@@ -333,8 +356,8 @@ Quisque consectetur urna ligula, eget consectetur velit malesuada ac. Praesent q
                                     <constraint firstItem="kUz-1q-YMM" firstAttribute="centerX" secondItem="c2q-to-nwA" secondAttribute="centerX" id="pSH-2o-rjg"/>
                                 </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quick History:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hp-7D-bbf">
-                                <rect key="frame" x="185" y="155" width="252" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Quick History:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hp-7D-bbf">
+                                <rect key="frame" x="180" y="140" width="252" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -343,6 +366,8 @@ Quisque consectetur urna ligula, eget consectetur velit malesuada ac. Praesent q
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="c2q-to-nwA" firstAttribute="centerY" secondItem="4P8-Og-5aT" secondAttribute="centerY" id="Cfb-HS-NWw"/>
+                            <constraint firstItem="c2q-to-nwA" firstAttribute="leading" secondItem="4hp-7D-bbf" secondAttribute="leading" id="N1t-Pt-xHR"/>
+                            <constraint firstItem="kUz-1q-YMM" firstAttribute="top" secondItem="4hp-7D-bbf" secondAttribute="bottom" constant="20" id="Vbf-Va-Qcy"/>
                             <constraint firstItem="c2q-to-nwA" firstAttribute="centerX" secondItem="4P8-Og-5aT" secondAttribute="centerX" id="lgz-78-pgy"/>
                         </constraints>
                     </view>
