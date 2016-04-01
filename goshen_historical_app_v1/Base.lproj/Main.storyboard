@@ -222,24 +222,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6EZ-EW-lOf">
-                                <rect key="frame" x="466" y="550" width="94" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6EZ-EW-lOf">
+                                <rect key="frame" x="440" y="550" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.47058823529411764" green="0.062745098039215685" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="mEG-Z3-nT3"/>
                                 </constraints>
-                                <state key="normal" title="Show in List "/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Show in List ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="bT9-Zn-3eL" kind="show" id="oGt-JF-7pC"/>
                                 </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tbh-X2-Im6">
-                                <rect key="frame" x="0.0" y="64" width="600" height="486"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="461"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tbh-X2-Im6" firstAttribute="top" secondItem="By2-J1-nTc" secondAttribute="bottom" id="5xk-gj-Hgv"/>
-                            <constraint firstItem="zQg-ND-hhW" firstAttribute="top" secondItem="tbh-X2-Im6" secondAttribute="bottom" constant="50" id="Cpu-si-Ylg"/>
+                            <constraint firstItem="zQg-ND-hhW" firstAttribute="top" secondItem="tbh-X2-Im6" secondAttribute="bottom" constant="75" id="Cpu-si-Ylg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tbh-X2-Im6" secondAttribute="trailing" constant="-20" id="RlN-VG-MU3"/>
                             <constraint firstItem="tbh-X2-Im6" firstAttribute="leading" secondItem="SWr-qt-Bll" secondAttribute="leadingMargin" constant="-20" id="kWW-5T-sWq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6EZ-EW-lOf" secondAttribute="trailing" constant="20" id="tr3-1M-pnN"/>
@@ -254,7 +258,7 @@
             </objects>
             <point key="canvasLocation" x="2407" y="-350"/>
         </scene>
-        <!--New Site-->
+        <!--Site Detail-->
         <scene sceneID="7xX-xv-4hk">
             <objects>
                 <viewController id="m3J-98-EIj" sceneMemberID="viewController">
@@ -284,9 +288,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="New Site" id="LU5-1T-omx">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Div-sT-mvL"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Site Detail" id="LU5-1T-omx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EuL-PZ-6FL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -308,12 +310,41 @@
                                 <rect key="frame" x="120" y="10" width="134" height="30"/>
                                 <state key="normal" title="Quick History "/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHj-xb-d3m">
-                                <rect key="frame" x="120" y="68" width="134" height="30"/>
-                                <state key="normal" title="Quick Overview "/>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c2q-to-nwA">
+                                <rect key="frame" x="180" y="184" width="240" height="325"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kUz-1q-YMM">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="325"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut nibh arcu. Nulla tincidunt venenatis dui, sed pulvinar lorem accumsan in. Etiam iaculis enim vitae viverra vulputate. Praesent consectetur non nunc in placerat. Aliquam ut ligula pretium, tincidunt risus sit amet, blandit est. Etiam at consequat ante. Nam vel dignissim tellus, eu iaculis risus. Curabitur pellentesque sem non tincidunt accumsan. Donec eget nulla sed mi mollis varius. Donec faucibus facilisis sapien in luctus. Integer vel purus dui. Nunc varius consequat enim sit amet consectetur.
+
+Praesent iaculis, justo at elementum scelerisque, ipsum leo iaculis purus, eget varius velit eros nec arcu. Nullam magna nunc, feugiat eu finibus non, varius ut ligula. Aliquam aliquam eu risus at convallis. Cras posuere semper accumsan. Nunc ipsum lacus, consequat ut purus non, tristique vulputate orci. Nulla id orci sit amet ipsum malesuada pulvinar. Sed fermentum efficitur mollis. Fusce varius nisl nunc, vitae rhoncus enim aliquam et. Sed massa felis, iaculis id libero sit amet, hendrerit vulputate arcu. Phasellus suscipit libero a diam tristique vulputate. Fusce malesuada lacus et iaculis tincidunt. In malesuada porttitor blandit. Aenean vulputate metus sit amet justo sodales dictum quis at nulla. Sed eu nisl consectetur, dapibus odio sit amet, rutrum lorem.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed faucibus cursus mauris, pulvinar ornare velit cursus ut. Vivamus egestas metus ut odio hendrerit, non scelerisque felis vulputate. Quisque fringilla volutpat mauris vitae suscipit. Phasellus imperdiet augue purus, eget egestas felis porta sed. Proin mollis nisl urna, aliquam lacinia risus condimentum sit amet. Curabitur facilisis, tortor a interdum elementum, velit ante aliquet enim, vitae finibus sapien turpis vitae ante. Phasellus aliquam iaculis risus, eget dapibus ante convallis sed. Cras tellus turpis, sodales ut sagittis et, interdum id lectus. Ut placerat vel enim semper malesuada. Sed vulputate, ligula eu vestibulum commodo, arcu tortor rutrum massa, id sodales magna lectus et velit. Etiam at sodales nisi. Duis non tincidunt turpis, eu faucibus purus.
+
+Quisque consectetur urna ligula, eget consectetur velit malesuada ac. Praesent quis rutrum diam, a semper dolor. Proin nec orci risus. Pellentesque quis sollicitudin nunc. Ut risus urna, euismod eu tristique vel, condimentum id erat. Pellentesque lacus enim, dapibus in laoreet ut, feugiat a neque. Nunc convallis faucibus risus quis ultricies. Suspendisse non sollicitudin velit. Donec eu augue erat. Integer sed vestibulum lacus, sit amet tincidunt orci.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kUz-1q-YMM" firstAttribute="centerX" secondItem="c2q-to-nwA" secondAttribute="centerX" id="gDq-Z1-lOM"/>
+                                    <constraint firstItem="kUz-1q-YMM" firstAttribute="centerY" secondItem="c2q-to-nwA" secondAttribute="centerY" id="nKD-N1-JIb"/>
+                                    <constraint firstItem="kUz-1q-YMM" firstAttribute="centerX" secondItem="c2q-to-nwA" secondAttribute="centerX" id="pSH-2o-rjg"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quick History:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hp-7D-bbf">
+                                <rect key="frame" x="185" y="155" width="252" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c2q-to-nwA" firstAttribute="centerY" secondItem="4P8-Og-5aT" secondAttribute="centerY" id="Cfb-HS-NWw"/>
+                            <constraint firstItem="c2q-to-nwA" firstAttribute="centerX" secondItem="4P8-Og-5aT" secondAttribute="centerX" id="lgz-78-pgy"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36f-yo-EQq" userLabel="First Responder" sceneMemberID="firstResponder"/>
