@@ -24,6 +24,14 @@ class ViewController: UIViewController {
 //        //siteList.insert("site1", atIndex: 0);
 //        let siteArray = [site1]
 //        print(siteArray.count)
+        
+        
+//        let label: UILabel = UILabel(frame: CGRectMake(0, 100, self.view.frame.size.width, 120))
+//        label.textAlignment = NSTextAlignment.Center
+//        label.text = "Goshen Historical"
+//        label.font = UIFont(name: "Nickainley", size: 35)
+//        label.backgroundColor = UIColor.whiteColor()
+//        self.view.addSubview(label)
 
     }
 
