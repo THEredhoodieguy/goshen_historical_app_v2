@@ -7,6 +7,11 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Nickainley.ttf">
+            <string>Nickainley</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -20,8 +25,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gha_home" translatesAutoresizingMaskIntoConstraints="NO" id="9cZ-Zg-wwD">
-                                <rect key="frame" x="19" y="-1" width="562" height="602"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20160203Brochure_PROOF-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9cZ-Zg-wwD">
+                                <rect key="frame" x="19" y="100" width="562" height="501"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ey-sk-k5M">
                                 <rect key="frame" x="164" y="514" width="272" height="45"/>
@@ -63,13 +68,21 @@
                                     <segue destination="Vfr-oM-Es0" kind="show" id="iqO-3P-rYr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Historic Goshen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSg-o0-KTE">
+                                <rect key="frame" x="55" y="64" width="502" height="100"/>
+                                <color key="backgroundColor" red="0.26666666666666666" green="0.15294117647058825" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Nickainley" family="Nickainley" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="9cZ-Zg-wwD" secondAttribute="trailing" constant="-1" id="1UH-a2-qxC"/>
-                            <constraint firstItem="9cZ-Zg-wwD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-1" id="Ail-eJ-knq"/>
+                            <constraint firstItem="9cZ-Zg-wwD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="100" id="Ail-eJ-knq"/>
                             <constraint firstItem="7Ey-sk-k5M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="450" id="F1d-ox-xb6"/>
                             <constraint firstAttribute="bottomMargin" secondItem="9cZ-Zg-wwD" secondAttribute="bottom" constant="-1" id="IHc-Pe-tsp"/>
+                            <constraint firstItem="mSg-o0-KTE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-1" id="Iac-gu-tKU"/>
                             <constraint firstItem="7Ey-sk-k5M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LNX-bQ-Z2I"/>
                             <constraint firstItem="9cZ-Zg-wwD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-1" id="Lbl-DX-GwM"/>
                             <constraint firstItem="7Ey-sk-k5M" firstAttribute="height" secondItem="yBI-GS-oXf" secondAttribute="height" id="PYm-IS-7uC"/>
@@ -81,6 +94,7 @@
                             <constraint firstItem="Rvl-Ll-jB6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lDD-RH-YSH"/>
                             <constraint firstItem="Rvl-Ll-jB6" firstAttribute="width" secondItem="yBI-GS-oXf" secondAttribute="width" id="ndF-a9-lBd"/>
                             <constraint firstItem="yBI-GS-oXf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pGw-jV-2a0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mSg-o0-KTE" secondAttribute="trailing" constant="-1" id="zov-iT-rwa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="j9i-UE-lkK"/>
@@ -516,7 +530,7 @@ Goshen, IN 46526</string>
         </scene>
     </scenes>
     <resources>
-        <image name="gha_home" width="750" height="1334"/>
+        <image name="20160203Brochure_PROOF-1.jpg" width="1073" height="1797"/>
         <image name="gha_logo" width="518" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>

@@ -11,8 +11,27 @@ import MapKit
 
 var siteArray:[Site] = [Site]()
 
-class ViewController: UIViewController {
+extension UIColor {
+    convenience init(hex: String, alpha: CGFloat = 1) {
+        assert(hex[hex.startIndex] == "#", "Expected hex string of format #RRGGBB")
+        
+        let scanner = NSScanner(string: hex)
+        scanner.scanLocation = 1  // skip #
+        
+        var rgb: UInt32 = 0
+        scanner.scanHexInt(&rgb)
+        
+        self.init(
+            red:   CGFloat((rgb & 0xFF0000) >> 16)/255.0,
+            green: CGFloat((rgb &   0xFF00) >>  8)/255.0,
+            blue:  CGFloat((rgb &     0xFF)      )/255.0,
+            alpha: alpha)
+    }
+}
 
+
+class ViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,11 +45,12 @@ class ViewController: UIViewController {
 //        print(siteArray.count)
         
         
-//        let label: UILabel = UILabel(frame: CGRectMake(0, 100, self.view.frame.size.width, 120))
+//        let label: UILabel = UILabel(frame: CGRectMake(0, self.view.frame.minY, self.view.frame.size.width, 120))
 //        label.textAlignment = NSTextAlignment.Center
-//        label.text = "Goshen Historical"
+//        label.text = "Historic Goshen"
 //        label.font = UIFont(name: "Nickainley", size: 35)
-//        label.backgroundColor = UIColor.whiteColor()
+//        label.backgroundColor = UIColor(hex: "#563530",alpha: 1)
+//        label.textColor = UIColor.whiteColor()
 //        self.view.addSubview(label)
 
     }

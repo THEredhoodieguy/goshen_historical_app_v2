@@ -28,6 +28,8 @@
 		E1619D911CAF5EE20099BC08 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1619D841CAF5EE20099BC08 /* OpenSans-Light.ttf */; };
 		E1619D921CAF5EE20099BC08 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1619D851CAF5EE20099BC08 /* OpenSans-LightItalic.ttf */; };
 		E1619D931CAF5EE20099BC08 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1619D861CAF5EE20099BC08 /* OpenSans-Regular.ttf */; };
+		E167A2A21CB2BC8A00BA00B5 /* 20160203Brochure_PROOF-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E167A2A01CB2BC8A00BA00B5 /* 20160203Brochure_PROOF-1.jpg */; };
+		E167A2A31CB2BC8A00BA00B5 /* Goshen-indiana-courthouse.png in Resources */ = {isa = PBXBuildFile; fileRef = E167A2A11CB2BC8A00BA00B5 /* Goshen-indiana-courthouse.png */; };
 		E1C2A3541C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
 		E1C2A3551C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
 		E1C2A3561C8DE4980008278B /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2A3531C8DE4980008278B /* Site.swift */; };
@@ -78,6 +80,8 @@
 		E1619D841CAF5EE20099BC08 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		E1619D851CAF5EE20099BC08 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		E1619D861CAF5EE20099BC08 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		E167A2A01CB2BC8A00BA00B5 /* 20160203Brochure_PROOF-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "20160203Brochure_PROOF-1.jpg"; sourceTree = "<group>"; };
+		E167A2A11CB2BC8A00BA00B5 /* Goshen-indiana-courthouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Goshen-indiana-courthouse.png"; sourceTree = "<group>"; };
 		E1C2A3531C8DE4980008278B /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Site.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +167,7 @@
 		E1619D791CAF5DC70099BC08 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E167A29F1CB2BC4700BA00B5 /* Images */,
 				E1619D7A1CAF5EE20099BC08 /* Montserrat-Bold.otf */,
 				E1619D7B1CAF5EE20099BC08 /* Montserrat-ExtraBold.otf */,
 				E1619D7C1CAF5EE20099BC08 /* Montserrat-Hairline.otf */,
@@ -178,6 +183,15 @@
 				E1619D861CAF5EE20099BC08 /* OpenSans-Regular.ttf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E167A29F1CB2BC4700BA00B5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E167A2A01CB2BC8A00BA00B5 /* 20160203Brochure_PROOF-1.jpg */,
+				E167A2A11CB2BC8A00BA00B5 /* Goshen-indiana-courthouse.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1619D891CAF5EE20099BC08 /* Montserrat-Hairline.otf in Resources */,
+				E167A2A31CB2BC8A00BA00B5 /* Goshen-indiana-courthouse.png in Resources */,
 				E1619D8E1CAF5EE20099BC08 /* Nickainley.ttf in Resources */,
 				E1619D911CAF5EE20099BC08 /* OpenSans-Light.ttf in Resources */,
 				E1619D8F1CAF5EE20099BC08 /* OpenSans-Bold.ttf in Resources */,
@@ -297,6 +312,7 @@
 				8BDCD4FE1C5FC16200418D16 /* Assets.xcassets in Resources */,
 				E1619D8D1CAF5EE20099BC08 /* Nickainley.otf in Resources */,
 				8BDCD4FC1C5FC16200418D16 /* Main.storyboard in Resources */,
+				E167A2A21CB2BC8A00BA00B5 /* 20160203Brochure_PROOF-1.jpg in Resources */,
 				E1619D8A1CAF5EE20099BC08 /* Montserrat-Light.otf in Resources */,
 				E1619D871CAF5EE20099BC08 /* Montserrat-Bold.otf in Resources */,
 				E1619D921CAF5EE20099BC08 /* OpenSans-LightItalic.ttf in Resources */,
