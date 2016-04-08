@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56EFE21D1CB805F000DCFEAE /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE21C1CB805F000DCFEAE /* tableViewController.swift */; };
 		8B7D1A9E1CA2EBDE00CA5348 /* ResidentialRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D1A9D1CA2EBDE00CA5348 /* ResidentialRequest.swift */; };
 		8B7D1AA01CA2EBE400CA5348 /* file_handling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D1A9F1CA2EBE400CA5348 /* file_handling.swift */; };
 		8B7D1AA21CA2EBE900CA5348 /* beginning_text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D1AA11CA2EBE900CA5348 /* beginning_text.swift */; };
@@ -112,6 +113,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		56EFE21C1CB805F000DCFEAE /* tableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		8B7D1A9D1CA2EBDE00CA5348 /* ResidentialRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidentialRequest.swift; sourceTree = "<group>"; };
 		8B7D1A9F1CA2EBE400CA5348 /* file_handling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = file_handling.swift; sourceTree = "<group>"; };
 		8B7D1AA11CA2EBE900CA5348 /* beginning_text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beginning_text.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				8BDCD4F61C5FC16200418D16 /* AppDelegate.swift */,
 				8BDCD4F81C5FC16200418D16 /* ViewController.swift */,
 				8BDCD4FA1C5FC16200418D16 /* Main.storyboard */,
+				56EFE21C1CB805F000DCFEAE /* tableViewController.swift */,
 				E1C2A3531C8DE4980008278B /* Site.swift */,
 				8BDCD4FD1C5FC16200418D16 /* Assets.xcassets */,
 				8BDCD4FF1C5FC16200418D16 /* LaunchScreen.storyboard */,
@@ -420,6 +423,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7D1A9E1CA2EBDE00CA5348 /* ResidentialRequest.swift in Sources */,
+				56EFE21D1CB805F000DCFEAE /* tableViewController.swift in Sources */,
 				8B7D1AA01CA2EBE400CA5348 /* file_handling.swift in Sources */,
 				8B7D1AA21CA2EBE900CA5348 /* beginning_text.swift in Sources */,
 				8BDCD4F91C5FC16200418D16 /* ViewController.swift in Sources */,

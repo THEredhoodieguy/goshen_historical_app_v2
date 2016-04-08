@@ -247,10 +247,10 @@
             </objects>
             <point key="canvasLocation" x="2407" y="397"/>
         </scene>
-        <!--View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="aHT-vL-bda">
             <objects>
-                <viewController id="9TH-ul-6wk" sceneMemberID="viewController">
+                <viewController id="9TH-ul-6wk" customClass="tableViewController" customModule="goshen_historical_app_v1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="By2-J1-nTc"/>
                         <viewControllerLayoutGuide type="bottom" id="zQg-ND-hhW"/>
