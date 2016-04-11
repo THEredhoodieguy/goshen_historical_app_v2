@@ -10,6 +10,9 @@ import UIKit
 
 class tableViewController: UIViewController {
 
+    //link for tableview and tableViewController (not to be confused with TableViewController
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -267,9 +267,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbV-4h-1me">
-                                <rect key="frame" x="106" y="378" width="113" height="30"/>
+                                <rect key="frame" x="72" y="550" width="113" height="30"/>
                                 <state key="normal" title="Residential"/>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yjy-ei-CC3">
+                                <rect key="frame" x="52" y="118" width="496" height="379"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="paX-i7-4Q0">
+                                        <rect key="frame" x="0.0" y="28" width="496" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="paX-i7-4Q0" id="esb-DP-ENj">
+                                            <rect key="frame" x="0.0" y="0.0" width="496" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -277,6 +291,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="6EZ-EW-lOf" secondAttribute="trailing" constant="15" id="yJb-tm-8R2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="yjy-ei-CC3" id="Afy-8v-H7c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XyY-Rx-oIA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
