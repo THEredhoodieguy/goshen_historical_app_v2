@@ -7,32 +7,63 @@
 //
 
 import UIKit
+import CoreData
+import Alamofire
 
-class tableViewController: UIViewController {
 
-    //link for tableview and tableViewController (not to be confused with TableViewController
-    @IBOutlet weak var tableView: UITableView!
+let samplelabels  = ["Kendall","is","a","person","","","","",""]
+
+class tableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var json_data_url = "http://www.kaleidosblog.com/tutorial/json_table_view_images.json"
+    var image_base_url = "http://www.kaleidosblog.com/tutorial/"
+    
+    
+    enum ErrorHandler:ErrorType
+    {
+        case ErrorFetchingResults
+    }
+    
+    
+    
+    @IBOutlet var tableview: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        tableview.dataSource = self
+        tableview.delegate = self
+        
     }
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
+        
+        let label = samplelabels[indexPath.row]
+        let data = TableData[indexPath.row]
+        
+        
+        cell.textLabel?.text = label
+        
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+            Alamofire.request(.GET, big_array[3][3]).response { (request, response, data, error) in
+                
+            cell.imageView?.image = UIImage(data: data!, scale:1)
+                
+        
+        return cell
+        
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return TableData.count
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }
+
+
