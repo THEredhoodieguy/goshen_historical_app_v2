@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BBBDA0A1CC2D93800FC4D34 /* tableViewController_Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBDA091CC2D93800FC4D34 /* tableViewController_Custom.swift */; };
+		8BBBDA0D1CC2D9E600FC4D34 /* file_handling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBDA0B1CC2D9E600FC4D34 /* file_handling.swift */; };
+		8BBBDA0E1CC2D9E600FC4D34 /* beginning_text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBDA0C1CC2D9E600FC4D34 /* beginning_text.swift */; };
 		8BDCD4F71C5FC16200418D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCD4F61C5FC16200418D16 /* AppDelegate.swift */; };
 		8BDCD4F91C5FC16200418D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCD4F81C5FC16200418D16 /* ViewController.swift */; };
 		8BDCD4FC1C5FC16200418D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDCD4FA1C5FC16200418D16 /* Main.storyboard */; };
@@ -53,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BBBDA091CC2D93800FC4D34 /* tableViewController_Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tableViewController_Custom.swift; path = ../tableViewController_Custom.swift; sourceTree = "<group>"; };
+		8BBBDA0B1CC2D9E600FC4D34 /* file_handling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = file_handling.swift; sourceTree = "<group>"; };
+		8BBBDA0C1CC2D9E600FC4D34 /* beginning_text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beginning_text.swift; sourceTree = "<group>"; };
 		8BDCD4F31C5FC16200418D16 /* goshen_historical_app_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goshen_historical_app_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDCD4F61C5FC16200418D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BDCD4F81C5FC16200418D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,8 +140,11 @@
 		8BDCD4F51C5FC16200418D16 /* goshen_historical_app_v1 */ = {
 			isa = PBXGroup;
 			children = (
+				8BBBDA091CC2D93800FC4D34 /* tableViewController_Custom.swift */,
 				8BDCD4F61C5FC16200418D16 /* AppDelegate.swift */,
 				8BDCD4F81C5FC16200418D16 /* ViewController.swift */,
+				8BBBDA0B1CC2D9E600FC4D34 /* file_handling.swift */,
+				8BBBDA0C1CC2D9E600FC4D34 /* beginning_text.swift */,
 				8BDCD4FA1C5FC16200418D16 /* Main.storyboard */,
 				E1325AB61CA2E35B001F6EA2 /* VCMapView.swift */,
 				E1C2A3531C8DE4980008278B /* Site.swift */,
@@ -342,7 +351,10 @@
 			files = (
 				E1325AB71CA2E35B001F6EA2 /* VCMapView.swift in Sources */,
 				8BDCD4F91C5FC16200418D16 /* ViewController.swift in Sources */,
+				8BBBDA0D1CC2D9E600FC4D34 /* file_handling.swift in Sources */,
+				8BBBDA0E1CC2D9E600FC4D34 /* beginning_text.swift in Sources */,
 				E1C2A3541C8DE4980008278B /* Site.swift in Sources */,
+				8BBBDA0A1CC2D93800FC4D34 /* tableViewController_Custom.swift in Sources */,
 				8BDCD4F71C5FC16200418D16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
