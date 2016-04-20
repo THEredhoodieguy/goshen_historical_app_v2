@@ -26,9 +26,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20160203Brochure_PROOF-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9cZ-Zg-wwD">
-                                <rect key="frame" x="19" y="100" width="562" height="501"/>
+                                <rect key="frame" x="0.0" y="150" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ey-sk-k5M">
+                            <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ey-sk-k5M">
                                 <rect key="frame" x="164" y="514" width="272" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -39,7 +39,7 @@
                                     <segue destination="Ryp-qA-hJd" kind="show" id="tzq-fY-lph"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBI-GS-oXf">
+                            <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBI-GS-oXf">
                                 <rect key="frame" x="164" y="364" width="272" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -54,7 +54,7 @@
                                     <segue destination="eQy-Oq-OZj" kind="show" id="8ZW-B7-BYu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvl-Ll-jB6">
+                            <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvl-Ll-jB6">
                                 <rect key="frame" x="164" y="439" width="272" height="45"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -78,23 +78,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="9cZ-Zg-wwD" secondAttribute="trailing" constant="-1" id="1UH-a2-qxC"/>
-                            <constraint firstItem="9cZ-Zg-wwD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="100" id="Ail-eJ-knq"/>
-                            <constraint firstItem="7Ey-sk-k5M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="450" id="F1d-ox-xb6"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="9cZ-Zg-wwD" secondAttribute="bottom" constant="-1" id="IHc-Pe-tsp"/>
-                            <constraint firstItem="mSg-o0-KTE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-1" id="Iac-gu-tKU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9cZ-Zg-wwD" secondAttribute="trailing" constant="-20" id="1UH-a2-qxC"/>
+                            <constraint firstItem="9cZ-Zg-wwD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="150" id="Ail-eJ-knq"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="9cZ-Zg-wwD" secondAttribute="bottom" constant="-150" id="IHc-Pe-tsp"/>
+                            <constraint firstItem="mSg-o0-KTE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Iac-gu-tKU"/>
                             <constraint firstItem="7Ey-sk-k5M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LNX-bQ-Z2I"/>
-                            <constraint firstItem="9cZ-Zg-wwD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-1" id="Lbl-DX-GwM"/>
+                            <constraint firstItem="9cZ-Zg-wwD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Lbl-DX-GwM"/>
+                            <constraint firstItem="yBI-GS-oXf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mq8-ip-AGF"/>
                             <constraint firstItem="7Ey-sk-k5M" firstAttribute="height" secondItem="yBI-GS-oXf" secondAttribute="height" id="PYm-IS-7uC"/>
                             <constraint firstItem="yBI-GS-oXf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pfh-7G-ZTY"/>
-                            <constraint firstItem="Rvl-Ll-jB6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="375" id="WxP-Ey-db2"/>
+                            <constraint firstItem="Rvl-Ll-jB6" firstAttribute="top" secondItem="yBI-GS-oXf" secondAttribute="bottom" constant="30" id="Xml-Yd-0tZ"/>
                             <constraint firstItem="Rvl-Ll-jB6" firstAttribute="height" secondItem="yBI-GS-oXf" secondAttribute="height" id="dBH-fq-7L3"/>
                             <constraint firstItem="7Ey-sk-k5M" firstAttribute="width" secondItem="yBI-GS-oXf" secondAttribute="width" id="fK3-Fl-AfU"/>
-                            <constraint firstItem="yBI-GS-oXf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="300" id="jS9-4D-Wj8"/>
                             <constraint firstItem="Rvl-Ll-jB6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lDD-RH-YSH"/>
                             <constraint firstItem="Rvl-Ll-jB6" firstAttribute="width" secondItem="yBI-GS-oXf" secondAttribute="width" id="ndF-a9-lBd"/>
                             <constraint firstItem="yBI-GS-oXf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pGw-jV-2a0"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mSg-o0-KTE" secondAttribute="trailing" constant="-1" id="zov-iT-rwa"/>
+                            <constraint firstItem="7Ey-sk-k5M" firstAttribute="top" secondItem="Rvl-Ll-jB6" secondAttribute="bottom" constant="30" id="tUb-wI-E67"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mSg-o0-KTE" secondAttribute="trailing" constant="-20" id="zov-iT-rwa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="j9i-UE-lkK"/>
