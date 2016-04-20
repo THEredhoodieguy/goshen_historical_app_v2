@@ -72,6 +72,10 @@ class TableViewController_Custom: UIViewController, UITableViewDataSource, UITab
 		return cell
 		
 	}
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print(indexPath.row)
+    }
 	
 	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
 	{
